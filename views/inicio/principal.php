@@ -1,3 +1,4 @@
-<div class="contenedor">
+<header class="header">
     <h1 class="fuente_headings">Portafolio</h1>
-</div>
+
+</header>

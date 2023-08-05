@@ -9,7 +9,7 @@ class InicioController {
 
         // Render a la vista
         $router->render('inicio/principal', [
-            
+            'titulo' => 'Pagina Principal',
         ]);
     }
 }

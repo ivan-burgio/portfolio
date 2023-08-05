@@ -5,7 +5,7 @@ const postcss    = require('gulp-postcss')
 const sourcemaps = require('gulp-sourcemaps')
 const cssnano = require('cssnano');
 const concat = require('gulp-concat');
-const terser = require('gulp-terser-js');
+// const terser = require('gulp-terser-js');
 const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin'); // Minificar imagenes 
 const notify = require('gulp-notify');
@@ -32,7 +32,7 @@ function css() {
 
 function javascript() {
     return src(paths.js)
-      .pipe(terser())
+      //.pipe(terser())
       .pipe(sourcemaps.write('.'))
       .pipe(dest('public/build/js'));
 }
