@@ -9,6 +9,9 @@ use MVC\Router;
 // use Controllers\DashboardController;
 $router = new Router();
 
+// Inicio
+$router->get('/', [InicioController::class, 'inicio']);
+
 // Login
 // $router->get('/', [LoginController::class, 'login']);
 // $router->post('/', [LoginController::class, 'login']);
