@@ -20,13 +20,13 @@
 
 @mixin boton($bgColor, $colorTexto) {
     background-color: $bgColor;
-    padding: 1.5rem 4rem;
+    padding: 1.2rem 3.5rem;
     color: $colorTexto;
     font-size: 1.6rem;
     display: inline-block;
     font-weight: 700;
     border: none;
-    transition-property: background-color;
+    transition-property: background-color, border-radius, color, text-shadow;
     transition-duration: .3s;
     text-align: center;
     display: block;
@@ -35,8 +35,11 @@
         width: auto;
     }
     &:hover {
-        background-color: darken( $bgColor, 10% );
+        border-radius: 0.8rem;
+        background-color: darken($bgColor, 20);
+        color: v.$white;
         cursor: pointer;
+        text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
     }
 }
 

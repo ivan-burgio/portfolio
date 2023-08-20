@@ -25,13 +25,19 @@
         display: flex;
         justify-content: flex-end;
         gap: 2rem;
-        backdrop-filter: blur(1.2rem);
+        backdrop-filter: blur(1rem);
         box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
     }
 
     &__enlaces {
         padding: 2rem;
         font-size: 2rem;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: v.$anaranjado;
+            text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 1);
+        }
     }
 
     &__contenedor {
@@ -79,8 +85,9 @@
         @include m.boton(v.$white, v.$black);
 
         &:hover {
-            background-color: v.$marron;
-            color: v.$white;
+            background-color: v.$anaranjado;
+            box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+            text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
         }
     }
 }
