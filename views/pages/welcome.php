@@ -1,8 +1,8 @@
 <header class="header">
     <nav class="header__nav">
-        <a href="/" class="header__enlaces">Sobre mi</a>
-        <a href="/" class="header__enlaces">Proyectos</a>
-        <a href="/" class="header__enlaces">Contacto</a>
+        <a href="/" class="header__enlaces">About me</a>
+        <a href="/" class="header__enlaces">Projects</a>
+        <a href="/" class="header__enlaces">Contact</a>
         <a href="/" class="header__enlaces">Admin</a>
     </nav>
 
