@@ -8,8 +8,8 @@ class InicioController {
     public static function inicio(Router $router) {
 
         // Render a la vista
-        $router->render('inicio/principal', [
-            'titulo' => 'Pagina Principal',
+        $router->render('pages/welcome', [
+            'titulo' => 'Welcome',
         ]);
     }
 }

@@ -61,3 +61,17 @@
         }
     }
 }
+
+@mixin texto-fluido($min, $max) {
+    font-size: clamp($min, -0.8rem + 10vw, $max);
+}
+
+@mixin contenedor {
+    width: min(95%, 140rem);
+    margin: 0 auto;
+
+    &--sm {
+        width: min(95%, 60rem);
+        margin: 0 auto;
+    }
+}
