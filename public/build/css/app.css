@@ -374,11 +374,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: image-set(url(../img/fondo-prog.avif) 1x, url(../img/fondo-prog.webp) 1x, url(../img/fondo-prog.jpg) 1x);
   position: relative;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: image-set(url(../img/fondo-prog.avif) 1x, url(../img/fondo-prog.webp) 1x, url(../img/fondo-prog.jpg) 1x);
 }
 .welcome::before {
   content: "";
@@ -398,7 +398,6 @@ p {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  /* Color negro semitransparente para el oscurecimiento */
 }
 .welcome__contenedor {
   height: 100vh;
@@ -411,7 +410,6 @@ p {
 .welcome__titule, .welcome__name, .welcome__iam {
   position: relative;
   z-index: 2;
-  /* Coloca el texto por encima del filtro */
   color: #FFFFFF;
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
@@ -436,7 +434,6 @@ p {
 .welcome__btn {
   position: relative;
   z-index: 2;
-  /* Coloca el boton por encima del filtro */
   margin-top: 10rem;
   background-color: #FFFFFF;
   padding: 1.2rem 3.5rem;
@@ -445,11 +442,12 @@ p {
   display: inline-block;
   font-weight: 700;
   border: none;
-  transition-property: background-color, border-radius, color, text-shadow;
+  transition-property: background-color, color, text-shadow;
   transition-duration: 0.3s;
   text-align: center;
   display: block;
   width: 100%;
+  border-radius: 0.8rem;
 }
 @media (min-width: 768px) {
   .welcome__btn {
@@ -457,7 +455,6 @@ p {
   }
 }
 .welcome__btn:hover {
-  border-radius: 0.8rem;
   background-color: #cccccc;
   color: #FFFFFF;
   cursor: pointer;
@@ -467,6 +464,14 @@ p {
   background-color: #df861d;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+.welcome__btn:hover .welcome__icon {
+  color: #FFFFFF;
+}
+.welcome__icon {
+  color: #000;
+  transition-property: color;
+  transition-duration: 0.3s;
 }
 
 .nav {

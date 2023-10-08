@@ -6,10 +6,16 @@ use MVC\Router;
 
 class PagesController {
     public static function index(Router $router) {
-
         // Render a la vista
         $router->render('pages/welcome', [
             'titulo' => 'Welcome',
+        ]);
+    }
+
+    public static function intro(Router $router) {
+        // Render a la vista
+        $router->render('pages/intro', [
+            'titulo' => 'Intro',
         ]);
     }
 

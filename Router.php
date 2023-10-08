@@ -47,7 +47,9 @@ class Router {
 
         if(str_contains($url_actual, '/admin')) {
             include_once __DIR__ . '/views/admin-layout.php';
-        } elseif(!str_contains($url_actual, '/welcome')) {
+        } elseif($url_actual != '/') {
+            include_once __DIR__ . '/views/pages-layout.php';
+        } else {
             include_once __DIR__ . '/views/layout.php';
         }
     }

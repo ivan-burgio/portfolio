@@ -12,6 +12,7 @@ $router = new Router();
 
 // Paginas
 $router->get('/', [PagesController::class, 'index']);
+$router->get('/intro', [PagesController::class, 'intro']);
 $router->get('/aboutme', [PagesController::class, 'aboutme']);
 $router->get('/contact', [PagesController::class, 'contact']);
 $router->get('/projects', [PagesController::class, 'projects']);

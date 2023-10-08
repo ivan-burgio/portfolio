@@ -26,16 +26,16 @@
     display: inline-block;
     font-weight: 700;
     border: none;
-    transition-property: background-color, border-radius, color, text-shadow;
+    transition-property: background-color, color, text-shadow;
     transition-duration: .3s;
     text-align: center;
     display: block;
     width: 100%;
+    border-radius: 0.8rem;
     @include tablet {
         width: auto;
     }
     &:hover {
-        border-radius: 0.8rem;
         background-color: darken($bgColor, 20);
         color: v.$white;
         cursor: pointer;

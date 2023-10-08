@@ -6,13 +6,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: 
         image-set(url(../img/fondo-prog.avif) 1x,
         url(../img/fondo-prog.webp) 1x,
         url(../img/fondo-prog.jpg) 1x)
     ;
-    position: relative;
-    overflow: hidden;
 
     &::before {
         content: "";
@@ -32,8 +34,6 @@
         ;
         z-index: 1;
     }
-    background-size: cover;
-    background-repeat: no-repeat;
 
     &::before {
         content: "";
@@ -43,7 +43,6 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.6);
-        /* Color negro semitransparente para el oscurecimiento */
     }
 
     &__contenedor {
@@ -60,7 +59,6 @@
     &__iam {
         position: relative;
         z-index: 2;
-        /* Coloca el texto por encima del filtro */
         color: v.$white;
         text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
     }
@@ -88,7 +86,6 @@
     &__btn {
         position: relative;
         z-index: 2;
-        /* Coloca el boton por encima del filtro */
         margin-top: 10rem;
         @include m.boton(v.$white, v.$black);
 
@@ -96,6 +93,16 @@
             background-color: v.$anaranjado;
             box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
             text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+
+            .welcome__icon {
+                color: v.$white;
+            }
         }
+    }
+
+    &__icon {
+        color: v.$black;
+        transition-property: color;
+        transition-duration: .3s;
     }
 }
