@@ -1,0 +1,101 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: 
+        image-set(url(../img/fondo-prog.avif) 1x,
+        url(../img/fondo-prog.webp) 1x,
+        url(../img/fondo-prog.jpg) 1x)
+    ;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+            radial-gradient(at 0% 0%, hsla(32,76%,49%,1) 0px, transparent 50%),
+            radial-gradient(at 0% 100%, hsla(38,97%,56%,0.59) 0px, transparent 50%),
+            radial-gradient(at 100% 100%, hsla(21,85%,28%,0.54) 0px, transparent 50%),
+            radial-gradient(at 100% 0%, hsla(31,74%,49%,0.54) 0px, transparent 50%),
+            radial-gradient(at 89% 2%, hsla(0,0%,0%,0.49) 0px, transparent 50%),
+            radial-gradient(at 98% 78%, hsla(0,0%,100%,0.51) 0px, transparent 50%),
+            radial-gradient(at 22% 40%, hsla(233,14%,10%,0.51) 0px, transparent 50%)
+        ;
+        z-index: 1;
+    }
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Color negro semitransparente para el oscurecimiento */
+    }
+
+    &__contenedor {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+    }
+
+    &__titule,
+    &__name,
+    &__iam {
+        position: relative;
+        z-index: 2;
+        /* Coloca el texto por encima del filtro */
+        color: v.$white;
+        text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    }
+
+    &__titule {
+        @include m.tablet {
+            font-size: 6rem;
+        }
+    }
+
+    &__name {
+        @include m.tablet {
+            font-size: 8rem;
+        }
+    }
+
+    &__iam {
+        text-align: center;
+
+        @include m.tablet {
+            font-size: 2.2rem;
+        }
+    }
+
+    &__btn {
+        position: relative;
+        z-index: 2;
+        /* Coloca el boton por encima del filtro */
+        margin-top: 10rem;
+        @include m.boton(v.$white, v.$black);
+
+        &:hover {
+            background-color: v.$anaranjado;
+            box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+            text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+        }
+    }
+}
