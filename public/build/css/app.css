@@ -470,8 +470,6 @@ p {
 }
 .welcome__icon {
   color: #000;
-  transition-property: color;
-  transition-duration: 0.3s;
 }
 
 #overlay {
@@ -490,10 +488,9 @@ p {
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between !important;
   width: 100%;
-  backdrop-filter: blur(1rem);
+  background-color: #000;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
@@ -503,17 +500,30 @@ p {
     justify-content: flex-end;
   }
 }
+.nav__contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .nav__logo {
-  background-image: image-set(url(../img/logo2.avif) 1x, url(../img/logo2.webp) 1x, url(../img/logo2.png) 1x);
   background-size: cover;
   background-repeat: no-repeat;
   width: 6rem;
   height: 6rem;
   margin: 2rem;
   z-index: 3;
+  background-image: image-set(url(../img/logo2.avif) 1x, url(../img/logo2.webp) 1x, url(../img/logo2.png) 1x);
+  background-color: #FFFFFF;
+  border-radius: 50%;
 }
-.nav__contenedor-enlaces {
-  display: flex;
+.nav__logo:hover {
+  background-color: #8a370a;
+}
+.nav__name {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .nav__enlaces {
   padding: 2rem;

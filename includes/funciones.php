@@ -21,7 +21,7 @@ function isAuth() : void {
 }
 
 function aos_animacion() : void {
-    $efectos = ['fade-up', 'fade-down', 'fade-left', 'fade-right', 'flip-left', 'flip-right', 'zoom-in', 'zoom-in-up', 'zoom-in-down', 'zoom-out'];
+    $efectos = ['fade-up', 'fade-down'];
     $efecto = array_rand($efectos, 1);
     echo ' data-aos="' . $efectos[$efecto] . '" ';
 }
