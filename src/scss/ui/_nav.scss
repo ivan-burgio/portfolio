@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between !important;
+    position: fixed;
+    top: 0;
     width: 100%;
     // backdrop-filter: blur(1rem);
     background-color: v.$black;
@@ -44,25 +46,46 @@
     }
 
     &__name {
-        color: v.$white;
-        text-transform: uppercase;
         font-size: 2.5rem;
-        font-weight: 700;
-    }
-
-    &__enlaces {
-        padding: 2rem;
-        font-size: 2rem;
         text-decoration: none;
         position: relative;
         z-index: 2;
         color: v.$white;
-        text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+    }
+
+    &__link {
+        padding: 2rem;
+        font-size: 2.5rem;
+        text-decoration: none;
+        position: relative;
+        z-index: 2;
+        color: v.$white;
 
         &:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-            color: v.$amarillo;
-            text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 1);
+            background-color: rgb(255, 255, 255);
+            color: v.$marron;
+            font-weight: 700;
+        }
+    }
+
+    &__links {
+        display: none;
+      }
+      
+      // Estilo para el botón de alternancia
+      &__toggle-button {
+        display: block;
+        cursor: pointer; // Agregamos un puntero para indicar que es interactivo
+      }
+      
+      // Aplica estilos específicos para tablet (aumenta el alto)
+      @media (min-width: 768px) {
+        &__links {
+          display: flex; // Mostrar enlaces en tablet
+          flex-direction: row; // Alineación horizontal de los enlaces
+        }
+        &__toggle-button {
+          display: none; // Ocultar el botón en tablet
         }
     }
 }

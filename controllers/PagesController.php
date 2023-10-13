@@ -8,14 +8,15 @@ class PagesController {
     public static function index(Router $router) {
         // Render a la vista
         $router->render('pages/welcome', [
-            'titulo' => 'Welcome',
+            'titulo_pestaña' => 'Welcome',
         ]);
     }
 
     public static function intro(Router $router) {
         // Render a la vista
         $router->render('pages/intro', [
-            'titulo' => 'Intro',
+            'titulo_pestaña' => 'Intro',
+            'titulo_page' => 'Resumen',
         ]);
     }
 
@@ -23,7 +24,8 @@ class PagesController {
 
         // Render a la vista
         $router->render('pages/aboutme', [
-            'titulo' => 'About me',
+            'titulo_pestaña' => 'About me',
+            'titulo_page' => 'About me',
         ]);
     }
 
@@ -31,7 +33,8 @@ class PagesController {
 
         // Render a la vista
         $router->render('pages/contact', [
-            'titulo' => 'Contact',
+            'titulo_pestaña' => 'Contact',
+            'titulo_page' => 'Contact',
         ]);
     }
 
@@ -39,7 +42,8 @@ class PagesController {
 
         // Render a la vista
         $router->render('pages/projects', [
-            'titulo' => 'Projects',
+            'titulo_pestaña' => 'Projects',
+            'titulo_page' => 'Projects',
         ]);
     }
 }

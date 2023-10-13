@@ -11,3 +11,16 @@ btnStart.addEventListener("click", (e) => {
         }, 1000); // Duración del efecto de opacidad (0.5 segundos en este caso)
     }, 10);
 });
+
+// Selecciona el botón de alternancia y el contenedor de enlaces
+const toggleButton = document.getElementById('toggleNav');
+const navLinks = document.getElementById('navLinks');
+
+// Agrega un manejador de eventos al botón
+toggleButton.addEventListener('click', function() {
+  if (navLinks.style.display === 'block') {
+    navLinks.style.display = 'none';
+  } else {
+    navLinks.style.display = 'block';
+  }
+});
