@@ -12,15 +12,15 @@ btnStart.addEventListener("click", (e) => {
     }, 10);
 });
 
-// Selecciona el botón de alternancia y el contenedor de enlaces
-const toggleButton = document.getElementById('toggleNav');
+// Selecciona la imagen de alternancia y el contenedor de enlaces
+const toggleImage = document.getElementById('toggleNav');
 const navLinks = document.getElementById('navLinks');
 
-// Agrega un manejador de eventos al botón
-toggleButton.addEventListener('click', function() {
-  if (navLinks.style.display === 'block') {
-    navLinks.style.display = 'none';
-  } else {
+// Agrega un manejador de eventos a la imagen
+toggleImage.addEventListener('click', () => {
+  if (navLinks.style.display === 'none' || navLinks.style.display === '') {
     navLinks.style.display = 'block';
+  } else {
+    navLinks.style.display = 'none';
   }
 });
