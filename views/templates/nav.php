@@ -1,5 +1,6 @@
 <nav class="nav">
-    <div id="nav-mobile">
+    <!-- Mobile -->
+    <div class="nav-container" id="nav-mobile">
         <div class="nav__contenedor-links">
             <div id="toggleNav" class="nav__toggle-image"></div>
 
@@ -17,7 +18,8 @@
         </div>
     </div>
 
-    <div id="nav-tablet">
+    <!-- Tablet -->
+    <div class="nav-container" id="nav-tablet">
         <div class="nav__contenedor-logo">
             <a href="/" class="nav__logo"></a>
             <p class="nav__name">Iván Burgio</p>
@@ -35,7 +37,8 @@
         </div>
     </div>
 
-    <div id="nav-desktop">
+    <!-- Desktop -->
+    <div class="nav-container" id="nav-desktop">
         <div class="nav__contenedor-logo">
             <a href="/" class="nav__logo"></a>
             <p class="nav__name">Iván Burgio</p>
