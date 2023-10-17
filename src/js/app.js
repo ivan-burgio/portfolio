@@ -13,19 +13,3 @@ if (btnStart && overlay) {
     }, 10);
   });
 }
-
-const toggleImage = document.getElementById('toggleNav');
-const navLinksMobile = document.getElementById('navLinks-mobile');
-const navLinksDesktop = document.getElementById('navLinks-desktop');
-
-if (toggleImage && navLinksMobile && navLinksDesktop) {
-    toggleImage.addEventListener('click', () => {
-        if (navLinksMobile.style.display === 'none' || navLinksMobile.style.display === '') {
-            navLinksMobile.style.display = 'flex';
-            navLinksDesktop.style.display = 'none';
-        } else {
-            navLinksMobile.style.display = 'none';
-            navLinksDesktop.style.display = 'flex';
-        }
-    });
-}
