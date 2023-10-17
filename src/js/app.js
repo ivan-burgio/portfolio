@@ -15,14 +15,17 @@ if (btnStart && overlay) {
 }
 
 const toggleImage = document.getElementById('toggleNav');
-const navLinks = document.getElementById('navLinks');
+const navLinksMobile = document.getElementById('navLinks-mobile');
+const navLinksDesktop = document.getElementById('navLinks-desktop');
 
-if (toggleImage && navLinks) {
-  toggleImage.addEventListener('click', () => {
-    if (navLinks.style.display === 'none' || navLinks.style.display === '') {
-      navLinks.style.display = 'block';
-    } else {
-      navLinks.style.display = 'none';
-    }
-  });
+if (toggleImage && navLinksMobile && navLinksDesktop) {
+    toggleImage.addEventListener('click', () => {
+        if (navLinksMobile.style.display === 'none' || navLinksMobile.style.display === '') {
+            navLinksMobile.style.display = 'flex';
+            navLinksDesktop.style.display = 'none';
+        } else {
+            navLinksMobile.style.display = 'none';
+            navLinksDesktop.style.display = 'flex';
+        }
+    });
 }

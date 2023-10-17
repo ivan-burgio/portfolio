@@ -14,36 +14,50 @@
     z-index: 2;
 
     @include m.tablet {
-        height: 7rem;
-        justify-content: flex-end;
         flex-direction: row;
     }
 
+    #nav-mobile, #nav-tablet, #nav-desktop {
+        display: none;
+    }
+
+    @include m.mobile {
+        #nav-mobile {
+            display: block;
+        }
+    }
+
+    @include m.tablet {
+        #nav-tablet {
+            display: block;
+        }
+    }
+
+    @include m.desktop {
+        #nav-desktop {
+            display: block;
+        }
+    }
+    
     &__contenedor {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
 
         &-logo {
-            @extend .nav__contenedor;
-            display: none;
+            display: block;
 
             @include m.tablet {
                 display: flex;
             }
 
             &--toggle {
-                @extend .nav__contenedor;
-                display: block;
+                display: none;
 
-                @include m.desktop {
-                    display: none;
+                @include m.tablet {
+                    display: block;
                 }
             }
-        }
-
-        &-links {
-            @extend .nav__contenedor;
         }
     }
 
@@ -109,9 +123,17 @@
     &__links {
         display: none;
 
+        @include m.mobile {
+            display: block;
+        }
+
+        @include m.tablet {
+            display: block;
+            flex-direction: column;
+        }
+
         @include m.desktop {
             display: flex;
-            flex-direction: row;
         }
     }
 

@@ -16,7 +16,7 @@ class PagesController {
         // Render a la vista
         $router->render('pages/intro', [
             'titulo_pestaña' => 'Intro',
-            'titulo_page' => 'Resumen',
+            'titulo_page' => 'Summary',
         ]);
     }
 
