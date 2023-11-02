@@ -1,5 +1,5 @@
 <main class="intro">
-    <div class="intro__aboutme">
+    <div class="intro__aboutme shadow">
         <p class="intro__aboutme-info">
             I am a passionate student of Web Development, with a solid background in technology. Currently, I am studying Computer Engineering and I actively participate in specialized training programs in the field of technology. My main objective is constant growth and continuous improvement of my programming skills, while I look for opportunities to enter the Information Technology (IT) sector.
             <br>
