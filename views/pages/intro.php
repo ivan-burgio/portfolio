@@ -9,4 +9,10 @@
 
         <img class="intro__aboutme-foto"></img>
     </div>
+
+    <div class="intro__proyects">
+        <p>My latest projects that I did practice are the following.</p>
+
+        <?php include_once __DIR__ . '/../templates/proyects.php'; ?>
+    </div>
 </main>

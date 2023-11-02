@@ -112,11 +112,15 @@
     }
 
     &__name {
-        font-size: 2.5rem;
+        font-size: 3rem;
         text-decoration: none;
         position: relative;
         z-index: 2;
         color: v.$white;
+
+        &:hover {
+            color: v.$marron;
+        }
 
         @include m.tablet {
             margin: 1rem;

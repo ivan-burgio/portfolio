@@ -1,0 +1,29 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.proyects {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+
+    &__proyect {
+        display: flex;
+        flex-direction: row;
+        margin: 3rem;
+    }
+
+    &__info {
+        max-width: 100rem;
+        background-color: white;
+        margin: 3rem;
+    }
+
+    &__img {
+        min-width: 30rem;
+        min-height: 30rem;
+        background-color: white;
+        margin: 3rem;
+    }
+
+}

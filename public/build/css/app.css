@@ -389,6 +389,11 @@ p {
   margin: 2rem 2rem 2rem 0;
   width: 80rem;
 }
+.intro__proyects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .welcome {
   height: 100vh;
@@ -602,11 +607,14 @@ p {
   }
 }
 .nav__name {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-decoration: none;
   position: relative;
   z-index: 2;
   color: #FFFFFF;
+}
+.nav__name:hover {
+  color: #8a370a;
 }
 @media (min-width: 768px) {
   .nav__name {
@@ -663,6 +671,29 @@ p {
   margin-top: 12rem;
 }
 .header__titulo {
+  margin: 3rem;
+}
+
+.proyects {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.proyects__proyect {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
+}
+.proyects__info {
+  max-width: 100rem;
+  background-color: white;
+  margin: 3rem;
+}
+.proyects__img {
+  min-width: 30rem;
+  min-height: 30rem;
+  background-color: white;
   margin: 3rem;
 }
 /*# sourceMappingURL=app.css.map */
