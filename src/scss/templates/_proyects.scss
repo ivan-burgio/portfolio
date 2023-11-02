@@ -2,28 +2,31 @@
 @use 'base/mixins' as m;
 
 .proyects {
-    background-color: red;
+    background-color: v.$anaranjado;
     display: flex;
     flex-direction: column;
     margin: 5rem;
+    border-radius: 1rem;
 
     &__proyect {
         display: flex;
         flex-direction: row;
-        margin: 3rem;
+        align-items: center;
+        margin: 2rem;
     }
 
     &__info {
-        max-width: 100rem;
-        background-color: white;
-        margin: 3rem;
+        max-width: 80rem;
+        margin: 2rem;
     }
 
     &__img {
-        min-width: 30rem;
+        min-width: 50rem;
         min-height: 30rem;
         background-color: white;
-        margin: 3rem;
+        margin: 2rem;
+        margin-right: 5rem;
+        background-color: red;
     }
 
 }
