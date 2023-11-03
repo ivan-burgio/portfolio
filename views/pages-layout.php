@@ -18,7 +18,7 @@
             include_once __DIR__ .'/templates/nav.php';
             include_once __DIR__ .'/templates/header.php';
             echo $contenido;
-            include_once __DIR__ .'/templates/footer.php'; 
+            include_once __DIR__ .'/templates/footer.php';
         ?>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -40,9 +40,30 @@
         align-items: center;
         margin: 1rem;
 
-        &__txt {
+        &-txt {
             font-size: 2rem;
             font-weight: 700;
+        }
+    }
+
+    &__contact {
+
+
+        &-txt {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        &-btn {
+            @include m.boton(v.$anaranjado, v.$black);
+            margin: 3rem;
+            box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+            font-size: 2.5rem;
+
+            &:hover {
+                text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+                background-color: v.$marron;
+            }
         }
     }
 }
