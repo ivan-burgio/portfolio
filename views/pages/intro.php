@@ -12,7 +12,7 @@
 
     <p data-aos="fade-up" class="intro-txt">My latest projects that I did practice are the following.</p>
 
-    <div data-aos="fade-up" class="intro__container swiper">
+    <div data-aos="fade-up" class="intro__container swiper slider">
         <?php include __DIR__ . '/../templates/proyects.php' ?>
 
         <div class="swiper-button-next"></div>
