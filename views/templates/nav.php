@@ -7,7 +7,7 @@
             <div id="navLinks" class="nav__links">
                 <div class="nav__contenedor-logo--toggle">
                     <a href="/" class="nav__logo"></a>
-                    <a href="/intro" class="nav__name">Iván Burgio</a>
+                    <a href="/intro" class="nav__name">Ivan Burgio</a>
                 </div>
 
                 <a href="/aboutme" class="nav__link">About me</a>
@@ -22,7 +22,7 @@
     <div class="nav-container" id="nav-tablet">
         <div class="nav__contenedor-logo">
             <a href="/" class="nav__logo"></a>
-            <a href="/intro" class="nav__name">Iván Burgio</a>
+            <a href="/intro" class="nav__name">Ivan Burgio</a>
         </div>
 
         <div class="nav__contenedor-links">
@@ -41,7 +41,7 @@
     <div class="nav-container" id="nav-desktop">
         <div class="nav__contenedor-logo">
             <a href="/" class="nav__logo"></a>
-            <a href="/intro" class="nav__name">Iván Burgio</a>
+            <a href="/intro" class="nav__name">Ivan Burgio</a>
         </div>
 
         <div class="nav__contenedor-links">

@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between !important;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
@@ -71,6 +71,7 @@
             @include m.tablet {
                 display: flex;
                 align-items: center;
+                margin-left: 1rem;
             }
 
             &--toggle {
@@ -98,26 +99,25 @@
         height: 4.5rem;
         margin: 1rem;
         z-index: 3;
-        background-color: v.$white;
+        background-color: v.$gray-light;
         border-radius: 50%;
 
         &:hover {
-            background-color: v.$amarillo;
+            background-color: v.$white;
         }
     }
 
     &__name {
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 1rem;
         text-decoration: none;
         position: relative;
         z-index: 2;
         color: v.$white;
+        text-transform: uppercase;
 
         &:hover {
-            color: v.$amarillo;
-            font-weight: 700;
-            border-bottom: 2px v.$amarillo solid;
+            border-bottom: 1px solid v.$white;
         }
 
         @include m.tablet {
@@ -159,13 +159,12 @@
         font-size: 2rem;
         text-decoration: none;
         position: relative;
-        z-index: 2;
-        color: v.$white;
+        color: v.$gray-light;
+        text-transform: uppercase;
 
         &:hover {
-            color: v.$amarillo;
-            font-weight: 700;
-            border-bottom: 2px v.$amarillo solid;
+            color: v.$white;
+            border-bottom: 1px solid v.$white;
         }
     }
 }

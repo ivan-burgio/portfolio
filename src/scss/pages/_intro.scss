@@ -6,8 +6,18 @@
     flex-direction: column;
     align-items: center;
 
+    &-txt {
+        margin-top: 10rem;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__container {
+        background-color: v.$marron;
+    }
+
     &__aboutme {
-        background-color: v.$anaranjado;
         border-radius: 1rem;
         display: flex;
         flex-direction: row;
@@ -37,26 +47,39 @@
     &__proyects {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 1rem;
-        margin-top: 10rem;
+        margin: 5rem;
+        padding: 1rem;
+        border-radius: 1rem;
 
-        &-txt {
-            font-size: 2rem;
-            font-weight: 700;
+        &__proyect {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 2rem;
+            background-color: v.$anaranjado;
+            border-radius: 1rem;
+            
+            &-info {
+                max-width: 80rem;
+                margin: 2rem;
+            }
+        
+            &-img {
+                min-width: 50rem;
+                min-height: 30rem;
+                background-color: white;
+                margin: 2rem;
+                margin-right: 5rem;
+                background-color: red;
+            }
         }
     }
 
     &__contact {
         margin: 10rem 0;
 
-        &-txt {
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
         &-btn {
-            @include m.boton(v.$anaranjado, v.$black);
+            @include m.boton(v.$amarillo, v.$black);
             margin: 3rem;
             box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
             font-size: 2.5rem;
@@ -67,4 +90,4 @@
             }
         }
     }
-}
+} 

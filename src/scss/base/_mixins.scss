@@ -17,7 +17,6 @@
     }
 }
 
-
 @mixin boton($bgColor, $colorTexto) {
     background-color: $bgColor;
     padding: 1.2rem 3.5rem;
@@ -67,4 +66,8 @@
 
 @mixin texto-fluido($min, $max) {
     font-size: clamp($min, -0.8rem + 10vw, $max);
+}
+
+@mixin shadow() {
+    box-shadow: 1px 0px 11px 1px rgba(0,0,0,1);
 }

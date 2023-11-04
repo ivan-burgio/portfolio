@@ -10,8 +10,10 @@ html {
 }
 body {
     font-family: v.$fuente_textos;
+    color: v.$white;
     font-size: 1.6rem;
     min-height: 100%;
+    background-color: v.$black;
 }
 a {
     text-decoration: none;
@@ -19,8 +21,4 @@ a {
 img {
     width: 100%;
     height: auto;
-}
-
-.shadow {
-    box-shadow: 1px 0px 11px 1px rgba(0,0,0,1);
 }
