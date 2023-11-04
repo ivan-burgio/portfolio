@@ -1,4 +1,4 @@
-<div class="proyects shadow">
+<div data-aos="fade-up"class="proyects shadow">
     <div data-aos="fade-up" class="proyects__proyect shadow">
         <a href="" class="proyects__img"><img src="" alt="proyect image"></a>
 
