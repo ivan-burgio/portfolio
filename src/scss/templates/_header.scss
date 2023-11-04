@@ -2,10 +2,9 @@
 @use 'base/mixins' as m;
 
 .header {
-    margin-top: 12rem;
+    margin-top: 15rem;
 
     &__titulo {
         margin: 3rem;
-        color: v.$white;
     }
 }

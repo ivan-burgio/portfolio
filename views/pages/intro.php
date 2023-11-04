@@ -12,24 +12,11 @@
 
     <p data-aos="fade-up" class="intro-txt">My latest projects that I did practice are the following.</p>
 
-    <div data-aos="fade-up" class="intro__container intro__proyects">
-        <div data-aos="fade-up" class="intro__proyects__proyect">
-            <a href="" class="intro__proyects__proyect-img"><img src="" alt="proyect image"></a>
+    <div data-aos="fade-up" class="intro__container swiper">
+        <?php include __DIR__ . '/../templates/proyects.php' ?>
 
-            <p class="intro__proyects__proyect-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, commodi! Architecto in voluptatibus libero velit voluptate repellat rem dolorum accusantium eos corporis delectus explicabo voluptas, minima rerum atque cumque sint?</p>
-        </div>
-
-        <div data-aos="fade-up" class="intro__proyects__proyect">
-            <a href="" class="intro__proyects__proyect-img"><img src="" alt="proyect image"></a>
-
-            <p class="intro__proyects__proyect-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, commodi! Architecto in voluptatibus libero velit voluptate repellat rem dolorum accusantium eos corporis delectus explicabo voluptas, minima rerum atque cumque sint?</p>
-        </div>
-
-        <div data-aos="fade-up" class="intro__proyects__proyect">
-            <a href="" class="intro__proyects__proyect-img"><img src="" alt="proyect image"></a>
-
-            <p class="intro__proyects__proyect-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, commodi! Architecto in voluptatibus libero velit voluptate repellat rem dolorum accusantium eos corporis delectus explicabo voluptas, minima rerum atque cumque sint?</p>
-        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 
     <div data-aos="fade-up" class="intro__contact">
