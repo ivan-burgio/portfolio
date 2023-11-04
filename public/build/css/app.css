@@ -408,10 +408,14 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 1rem;
+  margin-top: 10rem;
 }
 .intro__proyects-txt {
   font-size: 2rem;
   font-weight: 700;
+}
+.intro__contact {
+  margin: 10rem 0;
 }
 .intro__contact-txt {
   font-size: 2rem;
@@ -575,7 +579,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 7rem;
+  height: 6rem;
   background-color: #000;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -646,32 +650,28 @@ p {
   background-image: image-set(url(../img/logo2.avif) 1x, url(../img/logo2.webp) 1x, url(../img/logo2.png) 1x);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 6rem;
-  height: 6rem;
+  width: 4.5rem;
+  height: 4.5rem;
   margin: 1rem;
   z-index: 3;
   background-color: #FFFFFF;
   border-radius: 50%;
 }
 .nav__logo:hover {
-  background-color: #8a370a;
-}
-@media (min-width: 768px) {
-  .nav__logo {
-    width: 5rem;
-    height: 5rem;
-    margin: 2rem;
-  }
+  background-color: #fdc029;
 }
 .nav__name {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  padding: 1rem;
   text-decoration: none;
   position: relative;
   z-index: 2;
   color: #FFFFFF;
 }
 .nav__name:hover {
-  color: #8a370a;
+  color: #fdc029;
+  font-weight: 700;
+  border-bottom: 2px #fdc029 solid;
 }
 @media (min-width: 768px) {
   .nav__name {
@@ -684,15 +684,13 @@ p {
   background-position: 0%;
   display: block;
   cursor: pointer;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   margin: 1rem;
   z-index: 3;
 }
 @media (min-width: 768px) {
   .nav__toggle-image {
-    width: 5rem;
-    height: 5rem;
     margin: 2rem;
   }
 }
@@ -711,17 +709,17 @@ p {
   }
 }
 .nav__link {
-  padding: 2rem;
-  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
   text-decoration: none;
   position: relative;
   z-index: 2;
   color: #FFFFFF;
 }
 .nav__link:hover {
-  background-color: rgb(255, 255, 255);
-  color: #8a370a;
+  color: #fdc029;
   font-weight: 700;
+  border-bottom: 2px #fdc029 solid;
 }
 
 .header {

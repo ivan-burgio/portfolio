@@ -1,5 +1,5 @@
 <main class="intro">
-    <div class="intro__aboutme shadow">
+    <div data-aos="fade-up" class="intro__aboutme shadow">
         <p class="intro__aboutme-info">
             I am a passionate student of Web Development, with a solid background in technology. Currently, I am studying Computer Engineering and I actively participate in specialized training programs in the field of technology. My main objective is constant growth and continuous improvement of my programming skills, while I look for opportunities to enter the Information Technology (IT) sector.
             <br>
@@ -11,12 +11,12 @@
     </div>
 
     <div class="intro__proyects">
-        <p class="intro__proyects-txt">My latest projects that I did practice are the following.</p>
+        <p data-aos="fade-up" class="intro__proyects-txt">My latest projects that I did practice are the following.</p>
 
         <?php include_once __DIR__ . '/../templates/proyects.php'; ?>
     </div>
 
-    <div class="intro__contact">
+    <div data-aos="fade-up" class="intro__contact">
         <p class="intro__contact-txt">If you want to contact me you can do so by different means.</p>
         <a href="/contact" class="intro__contact-btn">Contact me</a>
     </div>
