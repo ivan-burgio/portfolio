@@ -39,10 +39,9 @@
     &__container {
         display: flex;
         flex-direction: column-reverse;
-        background-color: v.$marron;
-        width: 90%;
+        width: 95%;
         height: 20%;
-        margin: 5rem;
+        margin: 2rem;
 
         @include m.desktop {
             flex-direction: row;
@@ -82,6 +81,52 @@
             &:hover {
                 text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
                 background-color: v.$marron;
+            }
+        }
+    }
+
+    &__proyects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+    
+        &-proyect {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem;
+            background-color: v.$anaranjado;
+            width: auto;
+            
+            @include m.desktop {
+                flex-direction: row;
+                width: 100%;
+            }
+    
+            &-info {
+                width: 100%;
+                margin: 2rem;
+                padding: 0 3rem;
+                color: v.$black;
+            }
+    
+            &-img {
+                background-image: image-set(
+                    url(../img/fondo-prog.avif) 1x,
+                    url(../img/fondo-prog.webp) 1x,
+                    url(../img/fondo-prog.png) 1x);
+                background-size: cover;
+                background-repeat: no-repeat;
+                min-width: 35rem;
+                min-height: 25rem;
+                margin: 3rem;
+
+                @include m.tablet {
+                    min-width: 50rem;
+                    min-height: 30rem;
+                }
             }
         }
     }
