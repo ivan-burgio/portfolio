@@ -1,6 +1,6 @@
 <h2>COMING SOON...</h2>
 
-<main id="aboutme" class="main aboutme">
+<main class="main aboutme">
     <div data-aos="fade-up" class="intro__container intro__aboutme">
         <p class="intro__aboutme-info">
             I am a passionate student of Web Development, with a solid background in technology. Currently, I am studying Computer Engineering and I actively participate in specialized training programs in the field of technology. My main objective is constant growth and continuous improvement of my programming skills, while I look for opportunities to enter the Information Technology (IT) sector.

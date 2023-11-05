@@ -1,4 +1,4 @@
-<main id="intro" class="main intro">
+<main class="main intro">
     <div class="intro__welcome">
         <h2 data-aos="fade-down" class="intro__welcome__titule"> Welcome to my portfolio!</h2>
         <h1 data-aos="fade-down" class="intro__welcome__name">I'm Iván Burgio</h1>
@@ -8,11 +8,8 @@
 
     <p data-aos="fade-up" class="intro-txt">My latest projects that I did practice are the following.</p>
 
-    <div data-aos="fade-up" class="intro__container swiper slider">
+    <div data-aos="fade-up" class="intro__container">
         <?php include __DIR__ . '/../templates/proyects.php' ?>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
     </div>
 
     <div data-aos="fade-up" class="intro__contact">

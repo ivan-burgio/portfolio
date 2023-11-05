@@ -4,6 +4,7 @@
 .proyects {
     margin: 5rem;
     padding: 1rem;
+    width: 100%;
 
     &__proyect {
         display: flex;
@@ -27,8 +28,4 @@
             background-color: red;
         }
     }
-}
-
-.swiper {
-    width: 80%;
 }

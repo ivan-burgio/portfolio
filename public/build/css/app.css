@@ -565,6 +565,7 @@ p {
 }
 .nav__name {
   padding: 1rem 2rem;
+  margin: 0;
   font-size: 2rem;
   text-decoration: none;
   position: relative;
@@ -620,7 +621,6 @@ p {
 }
 
 .active {
-  border-bottom: 1px solid #e48c27;
   color: #e48c27;
 }
 .active:hover {
@@ -665,6 +665,7 @@ p {
 .proyects {
   margin: 5rem;
   padding: 1rem;
+  width: 100%;
 }
 .proyects__proyect {
   display: flex;
@@ -685,9 +686,5 @@ p {
   margin: 2rem;
   margin-right: 5rem;
   background-color: red;
-}
-
-.swiper {
-  width: 80%;
 }
 /*# sourceMappingURL=app.css.map */
