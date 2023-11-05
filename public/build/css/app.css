@@ -377,9 +377,10 @@ p {
 }
 .intro__welcome {
   width: 90%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
+  margin: 5rem;
 }
 .intro__welcome__titule {
   padding: 1rem;
@@ -392,26 +393,17 @@ p {
 }
 .intro__welcome__name {
   padding: 1rem;
+  color: #e48c27;
 }
 @media (min-width: 768px) {
   .intro__welcome__name {
     font-size: 11rem;
   }
 }
-.intro__welcome__iam {
+.intro-txt {
   padding: 1rem;
   margin-top: 5rem;
-}
-@media (min-width: 768px) {
-  .intro__welcome__iam {
-    font-size: 2.5rem;
-  }
-}
-.intro-txt {
-  margin-top: 10rem;
   font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
 }
 .intro__container {
   display: flex;
@@ -572,21 +564,17 @@ p {
   background-color: #FFFFFF;
 }
 .nav__name {
+  padding: 1rem 2rem;
   font-size: 2rem;
-  padding: 1rem;
   text-decoration: none;
   position: relative;
-  z-index: 2;
   color: #FFFFFF;
   text-transform: uppercase;
+  line-height: 1.15;
 }
 .nav__name:hover {
   border-bottom: 1px solid #FFFFFF;
-}
-@media (min-width: 768px) {
-  .nav__name {
-    margin: 1rem;
-  }
+  color: #FFFFFF;
 }
 .nav__toggle-image {
   background-image: url("../img/barras.avif");
@@ -627,8 +615,17 @@ p {
   text-transform: uppercase;
 }
 .nav__link:hover {
-  color: #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.active {
+  border-bottom: 1px solid #e48c27;
+  color: #e48c27;
+}
+.active:hover {
+  border-bottom: 1px solid #e48c27;
+  color: #e48c27;
 }
 
 .header {

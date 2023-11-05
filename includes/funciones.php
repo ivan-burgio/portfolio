@@ -25,3 +25,8 @@ function aos_animacion() : void {
     $efecto = array_rand($efectos, 1);
     echo ' data-aos="' . $efectos[$efecto] . '" ';
 }
+
+function imprimirEnlace($ruta, $nombre) {
+    $clase = ($_SERVER['REQUEST_URI'] === $ruta) ? 'active' : '';
+    echo '<a href="' . $ruta . '" class="nav__link ' . $clase . '">' . $nombre . '</a>';
+}

@@ -108,20 +108,17 @@
     }
 
     &__name {
+        padding: 1rem 2rem;
         font-size: 2rem;
-        padding: 1rem;
         text-decoration: none;
         position: relative;
-        z-index: 2;
         color: v.$white;
         text-transform: uppercase;
+        line-height: 1.15;
 
         &:hover {
             border-bottom: 1px solid v.$white;
-        }
-
-        @include m.tablet {
-            margin: 1rem;
+            color: v.$white;
         }
     }
 
@@ -163,8 +160,18 @@
         text-transform: uppercase;
 
         &:hover {
-            color: v.$white;
             border-bottom: 1px solid v.$white;
+            color: v.$white;
         }
+    }
+}
+
+.active {
+    border-bottom: 1px solid v.$anaranjado;
+    color: v.$anaranjado;
+
+    &:hover {
+        border-bottom: 1px solid v.$anaranjado;
+        color: v.$anaranjado;
     }
 }
