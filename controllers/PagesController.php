@@ -7,16 +7,9 @@ use MVC\Router;
 class PagesController {
     public static function index(Router $router) {
         // Render a la vista
-        $router->render('pages/welcome', [
-            'titulo_pestaña' => 'Welcome',
-        ]);
-    }
-
-    public static function intro(Router $router) {
-        // Render a la vista
         $router->render('pages/intro', [
-            'titulo_pestaña' => 'Intro',
-            'titulo_page' => 'Summary',
+            'titulo_pestaña' => 'Welcome',
+            'titulo_page' => `Welcome to my portfolio!<br><span class="welcome__name">I'm Iván Burgio</span>`,
         ]);
     }
 

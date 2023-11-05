@@ -5,10 +5,10 @@
             <div id="toggleNav" class="nav__toggle-image"></div>
 
             <div id="navLinks" class="nav__links">
-                <div class="nav__contenedor-logo--toggle">
-                    <a href="/" class="nav__logo"></a>
-                    <a href="/intro" class="nav__name">Ivan Burgio</a>
-                </div>
+                <a href="/" class="nav__contenedor-logo">
+                    <div class="nav__logo"></div>
+                    <p class="nav__name">Ivan Burgio</p>
+                </a>
 
                 <a href="/aboutme" class="nav__link">About me</a>
                 <a href="/projects" class="nav__link">Projects</a>
@@ -20,10 +20,10 @@
 
     <!-- Tablet -->
     <div class="nav-container" id="nav-tablet">
-        <div class="nav__contenedor-logo">
-            <a href="/" class="nav__logo"></a>
-            <a href="/intro" class="nav__name">Ivan Burgio</a>
-        </div>
+        <a href="/" class="nav__contenedor-logo">
+            <div class="nav__logo"></div>
+            <p class="nav__name">Ivan Burgio</p>
+        </a>
 
         <div class="nav__contenedor-links">
             <div id="toggleNav" class="nav__toggle-image"></div>
@@ -39,10 +39,10 @@
 
     <!-- Desktop -->
     <div class="nav-container" id="nav-desktop">
-        <div class="nav__contenedor-logo">
-            <a href="/" class="nav__logo"></a>
-            <a href="/intro" class="nav__name">Ivan Burgio</a>
-        </div>
+        <a href="/" class="nav__contenedor-logo">
+            <div class="nav__logo"></div>
+            <p class="nav__name">Ivan Burgio</p>
+        </a>
 
         <div class="nav__contenedor-links">
             <div id="navLinks" class="nav__links">
