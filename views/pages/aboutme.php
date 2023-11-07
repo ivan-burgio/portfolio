@@ -9,4 +9,52 @@
 
         <img class="aboutme__i-foto"></img>
     </div>
+
+    <div>
+        <h3>Tech Stack</h3>
+
+        <div>
+            <div>
+                <p>FrontEnd</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>JavaScript</li>
+                    <li>Boostrap</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>NextJS</li>
+                    <li>Tailwind</li>
+                    <li>Gatsby</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>BackEnd</p>
+                <ul>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    <li>NodeJS</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Development Tools</p>
+                <ul>
+                    <li>GIT</li>
+                    <li>GitHub</li>
+                    <li>GulpJS</li>
+                    <li>WebPack</li>
+                    <li>NPM</li>
+                    <li>Composer</li>
+                    <li>Postman</li>
+                    <li>Cypress</li>
+                    <li>Graphql</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </main>
