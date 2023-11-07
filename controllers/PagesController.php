@@ -9,6 +9,7 @@ class PagesController {
         // Render a la vista
         $router->render('pages/intro', [
             'titulo_pestaña' => 'Welcome',
+            'titulo_page' => '',
             'margin_top' => true,
         ]);
     }
