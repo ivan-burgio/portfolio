@@ -7,7 +7,7 @@
             <div id="navLinks" class="nav__links">
                 <a href="/" class="nav__contenedor-logo">
                     <div class="nav__logo"></div>
-                    <p class="nav__name">Ivan Burgio</p>
+                    <?php nameActivo('/'); ?>
                 </a>
 
                 <?php imprimirEnlace('/aboutme', 'About me'); ?>
@@ -22,7 +22,7 @@
     <div class="nav-container" id="nav-tablet">
         <a href="/" class="nav__contenedor-logo">
             <div class="nav__logo"></div>
-            <p class="nav__name">Ivan Burgio</p>
+            <?php nameActivo('/'); ?>
         </a>
 
         <div class="nav__contenedor-links">
@@ -43,7 +43,7 @@
     <div class="nav-container" id="nav-desktop">
         <a href="/" class="nav__contenedor-logo">
             <div class="nav__logo"></div>
-            <p class="nav__name">Ivan Burgio</p>
+            <?php nameActivo('/'); ?>
         </a>
 
         <div class="nav__contenedor-links">

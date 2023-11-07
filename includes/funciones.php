@@ -30,3 +30,8 @@ function imprimirEnlace($ruta, $nombre) {
     $clase = ($_SERVER['REQUEST_URI'] === $ruta) ? 'active' : '';
     echo '<a href="' . $ruta . '" class="nav__link ' . $clase . '">' . $nombre . '</a>';
 }
+
+function nameActivo($ruta) {
+    $clase = ($_SERVER['REQUEST_URI'] === $ruta) ? 'active' : '';
+    echo '<p class="nav__name ' . $clase .'">Ivan Burgio</p>';
+}
