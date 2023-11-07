@@ -446,7 +446,7 @@ p {
   margin-bottom: 15rem;
 }
 .intro__contact-btn {
-  background-color: #fdc029;
+  background-color: #e48c27;
   padding: 1.2rem 3.5rem;
   color: #000;
   font-size: 1.6rem;
@@ -469,7 +469,7 @@ p {
   }
 }
 .intro__contact-btn:hover {
-  background-color: #be8802;
+  background-color: #935712;
   color: #FFFFFF;
   cursor: pointer;
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);

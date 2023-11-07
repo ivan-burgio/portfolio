@@ -86,7 +86,7 @@
         margin-bottom: 15rem;
 
         &-btn {
-            @include m.boton(v.$amarillo, v.$black);
+            @include m.boton(v.$anaranjado, v.$black);
             margin: 3rem;
             box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
             font-size: 2.5rem;
