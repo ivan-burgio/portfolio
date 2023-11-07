@@ -424,24 +424,6 @@ p {
   font-size: 2rem;
   z-index: 2;
 }
-.intro__aboutme {
-  justify-content: space-between;
-  align-items: center;
-}
-.intro__aboutme-foto {
-  min-width: 40rem;
-  min-height: 40rem;
-  max-width: 40rem;
-  max-height: 40rem;
-  background-color: red;
-  margin: 3rem;
-  object-fit: cover;
-}
-.intro__aboutme-info {
-  text-align: left;
-  margin: 3rem;
-  width: 80%;
-}
 .intro__contact {
   margin-bottom: 15rem;
 }
@@ -519,6 +501,32 @@ p {
     min-width: 50rem;
     min-height: 30rem;
   }
+}
+
+.aboutme__i {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 992px) {
+  .aboutme__i {
+    flex-direction: row;
+  }
+}
+.aboutme__i-foto {
+  min-width: 40rem;
+  min-height: 40rem;
+  max-width: 40rem;
+  max-height: 40rem;
+  background-color: red;
+  margin: 3rem;
+  object-fit: cover;
+}
+.aboutme__i-info {
+  text-align: left;
+  margin: 3rem;
+  width: 80%;
 }
 
 .nav {
