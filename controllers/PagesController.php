@@ -9,7 +9,7 @@ class PagesController {
         // Render a la vista
         $router->render('pages/intro', [
             'titulo_pestaña' => 'Welcome',
-            'titulo_page' => `Welcome to my portfolio!<br><span class="welcome__name">I'm Iván Burgio</span>`,
+            'margin_top' => true,
         ]);
     }
 

@@ -2,10 +2,13 @@
 @use 'base/mixins' as m;
 
 .header {
-    margin-top: 15rem;
 
     &__titulo {
         margin: 3rem;
         text-align: center;
+    }
+
+    &-margin15 {
+        margin-top: 15rem;
     }
 }
