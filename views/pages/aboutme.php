@@ -11,11 +11,11 @@
     </div>
 
     <div>
-        <h3>Tech Stack</h3>
+        <h3 class="aboutme__tech-titule">Tech Stack</h3>
 
         <div>
             <div>
-                <p>FrontEnd</p>
+                <p class="aboutme__tech-titules">FrontEnd</p>
                 <ul>
                     <li class="aboutme__tech">HTML <span class="aboutme__tech-logo" id="aboutme__logo-html"></span></li>
                     <li class="aboutme__tech">CSS <span class="aboutme__tech-logo" id="aboutme__logo-css"></span></li>
@@ -31,7 +31,7 @@
             </div>
 
             <div>
-                <p>BackEnd</p>
+                <p class="aboutme__tech-titules">BackEnd</p>
                 <ul>
                     <li class="aboutme__tech">PHP <span class="aboutme__tech-logo" id="aboutme__logo-php"></span></li>
                     <li class="aboutme__tech">SQL <span class="aboutme__tech-logo" id="aboutme__logo-sql"></span></li>
@@ -41,7 +41,7 @@
             </div>
 
             <div>
-                <p>Development Tools</p>
+                <p class="aboutme__tech-titules">Development Tools</p>
                 <ul>
                     <li class="aboutme__tech">GIT <span class="aboutme__tech-logo" id="aboutme__logo-git"></span></li>
                     <li class="aboutme__tech">GitHub <span class="aboutme__tech-logo" id="aboutme__logo-github"></span></li>
