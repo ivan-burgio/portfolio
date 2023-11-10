@@ -16,7 +16,7 @@
         <div>
             <div>
                 <p class="aboutme__tech-titules">FrontEnd</p>
-                <ul>
+                <ul class="aboutme__tech-list">
                     <li class="aboutme__tech">HTML 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
@@ -101,7 +101,7 @@
 
             <div>
                 <p class="aboutme__tech-titules">BackEnd</p>
-                <ul>
+                <ul class="aboutme__tech-list">
                     <li class="aboutme__tech">PHP 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
@@ -139,7 +139,7 @@
 
             <div>
                 <p class="aboutme__tech-titules">Development Tools</p>
-                <ul>
+                <ul class="aboutme__tech-list" >
                     <li class="aboutme__tech">GIT 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
@@ -211,7 +211,7 @@
                             alt="logo graph"
                         ></img>
                     </li>
-                    
+
                     <li class="aboutme__tech">Firebase 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" 

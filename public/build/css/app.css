@@ -528,6 +528,9 @@ p {
   margin: 3rem;
   width: 80%;
 }
+.aboutme__tech-list {
+  list-style: none;
+}
 .aboutme__tech-logo {
   margin: 0.5rem;
   width: 4rem;
