@@ -17,42 +17,42 @@
             <div>
                 <p>FrontEnd</p>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SASS</li>
-                    <li>JavaScript</li>
-                    <li>Boostrap</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>NextJS</li>
-                    <li>Tailwind</li>
-                    <li>Gatsby</li>
+                    <li class="aboutme__tech">HTML <span class="aboutme__tech-logo" id="aboutme__logo-html"></span></li>
+                    <li class="aboutme__tech">CSS <span class="aboutme__tech-logo" id="aboutme__logo-css"></span></li>
+                    <li class="aboutme__tech">SASS <span class="aboutme__tech-logo" id="aboutme__logo-sass"></span></li>
+                    <li class="aboutme__tech">JavaScript<span class="aboutme__tech-logo" id="aboutme__logo-js"></span></li>
+                    <li class="aboutme__tech">Bootsrap <span class="aboutme__tech-logo" id="aboutme__logo-bootsrap"></span></li>
+                    <li class="aboutme__tech">React <span class="aboutme__tech-logo" id="aboutme__logo-react"></span></li>
+                    <li class="aboutme__tech">Redux <span class="aboutme__tech-logo" id="aboutme__logo-redux"></span></li>
+                    <li class="aboutme__tech">NextJS <span class="aboutme__tech-logo" id="aboutme__logo-next"></span></li>
+                    <li class="aboutme__tech">Tailwind <span class="aboutme__tech-logo" id="aboutme__logo-tail"></span></li>
+                    <li class="aboutme__tech">Gatsby <span class="aboutme__tech-logo" id="aboutme__logo-gatsby"></span></li>
                 </ul>
             </div>
 
             <div>
                 <p>BackEnd</p>
                 <ul>
-                    <li>PHP</li>
-                    <li>SQL</li>
-                    <li>MySQL</li>
-                    <li>NodeJS</li>
+                    <li class="aboutme__tech">PHP <span class="aboutme__tech-logo" id="aboutme__logo-php"></span></li>
+                    <li class="aboutme__tech">SQL <span class="aboutme__tech-logo" id="aboutme__logo-sql"></span></li>
+                    <li class="aboutme__tech">MySQL <span class="aboutme__tech-logo" id="aboutme__logo-mysql"></span></li>
+                    <li class="aboutme__tech">NodeJS <span class="aboutme__tech-logo" id="aboutme__logo-node"></span></li>
                 </ul>
             </div>
 
             <div>
                 <p>Development Tools</p>
                 <ul>
-                    <li>GIT</li>
-                    <li>GitHub</li>
-                    <li>GulpJS</li>
-                    <li>WebPack</li>
-                    <li>NPM</li>
-                    <li>Composer</li>
-                    <li>Postman</li>
-                    <li>Cypress</li>
-                    <li>Graphql</li>
-                    <li>Firebase</li>
+                    <li class="aboutme__tech">GIT <span class="aboutme__tech-logo" id="aboutme__logo-git"></span></li>
+                    <li class="aboutme__tech">GitHub <span class="aboutme__tech-logo" id="aboutme__logo-github"></span></li>
+                    <li class="aboutme__tech">GulpJS <span class="aboutme__tech-logo" id="aboutme__logo-gulp"></span></li>
+                    <li class="aboutme__tech">WebPack <span class="aboutme__tech-logo" id="aboutme__logo-webpack"></span></li>
+                    <li class="aboutme__tech">NPM <span class="aboutme__tech-logo" id="aboutme__logo-npm"></span></li>
+                    <li class="aboutme__tech">Composer <span class="aboutme__tech-logo" id="aboutme__logo-composer"></span></li>
+                    <li class="aboutme__tech">Postman <span class="aboutme__tech-logo" id="aboutme__logo-postman"></span></li>
+                    <li class="aboutme__tech">Cypress <span class="aboutme__tech-logo" id="aboutme__logo-cypress"></span></li>
+                    <li class="aboutme__tech">Graphql <span class="aboutme__tech-logo" id="aboutme__logo-graphql"></span></li>
+                    <li class="aboutme__tech">Firebase <span class="aboutme__tech-logo" id="aboutme__logo-firebase"></span></li>
                 </ul>
             </div>
         </div>
