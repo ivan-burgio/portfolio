@@ -1,10 +1,16 @@
 <main class="main aboutme">
     <div data-aos="fade-up" class="aboutme__i">
         <p class="aboutme__i-info">
-            I am a passionate student of Web Development, with a solid background in technology. Currently, I am studying Computer Engineering and I actively participate in specialized training programs in the field of technology. My main objective is constant growth and continuous improvement of my programming skills, while I look for opportunities to enter the Information Technology (IT) sector.
+            I am passionate about Web Development with a solid background in technology. Currently, I work as a programmer and actively participate in continuing training programs in the technological field. My main goal is to continue growing and constantly improving my programming skills while contributing to the Information Technology (IT) sector.
             <br>
             <br>
-            My fascination with programming in all its dimensions has led me to immerse myself in the world of Web Development, covering both FrontEnd and BackEnd. Additionally, I am spending time on additional courses to expand my knowledge and hone my skills in this exciting field.
+            Talking a little more about myself, I really like several areas of programming, although I am leaning towards Web Development currently covering both FrontEnd and BackEnd.
+            <br>
+            <br>
+            I am currently 22 years old, I really like video games, motorcycles, and reading manga.
+            <br>
+            <br>
+            My career began by studying Computer Engineering at the University, but after a few years I realized that I really didn't like it, so I was inclined to study on my own.
         </p>
 
         <img class="aboutme__i-foto"></img>
