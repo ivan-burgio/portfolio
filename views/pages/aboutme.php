@@ -9,7 +9,6 @@
             <br>
             I am currently 22 years old, I really like video games, motorcycles, and reading manga.
             <br>
-            <br>
             My career began by studying Computer Engineering at the University, but after a few years I realized that I really didn't like it, so I was inclined to study on my own.
         </p>
 
@@ -19,11 +18,12 @@
     <div>
         <h3 class="aboutme__tech-titule">Tech Stack</h3>
 
-        <div>
-            <div>
+        <div class="aboutme__tech">
+            <div class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">FrontEnd</p>
                 <ul class="aboutme__tech-list">
-                    <li class="aboutme__tech">HTML 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">HTML</p> 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
                             class="aboutme__tech-logo"
@@ -31,7 +31,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">CSS
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">CSS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
                             class="aboutme__tech-logo"
@@ -39,7 +40,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">SASS 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">SASS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
                             class="aboutme__tech-logo"
@@ -47,7 +49,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">JavaScript 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">JavaScript</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
                             class="aboutme__tech-logo"
@@ -55,7 +58,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Bootsrap 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Bootsrap</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                             class="aboutme__tech-logo"
@@ -63,7 +67,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">React 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">React</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                             class="aboutme__tech-logo"
@@ -71,7 +76,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Redux 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Redux</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" 
                             class="aboutme__tech-logo"
@@ -79,7 +85,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">NextJS 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">NextJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
                             class="aboutme__tech-logo"
@@ -87,7 +94,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Tailwind 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Tailwind</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
                             class="aboutme__tech-logo"
@@ -95,7 +103,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Gatsby 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Gatsby</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-plain.svg" 
                             class="aboutme__tech-logo"
@@ -105,10 +114,11 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">BackEnd</p>
                 <ul class="aboutme__tech-list">
-                    <li class="aboutme__tech">PHP 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">PHP</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
                             class="aboutme__tech-logo"
@@ -116,7 +126,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">SQL 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">SQL</p>
                         <img 
                             src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" 
                             class="aboutme__tech-logo"
@@ -124,7 +135,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">MySQL 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">MySQL</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" 
                             class="aboutme__tech-logo"
@@ -132,7 +144,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">NodeJS 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">NodeJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
                             class="aboutme__tech-logo"
@@ -143,10 +156,11 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">Development Tools</p>
                 <ul class="aboutme__tech-list" >
-                    <li class="aboutme__tech">GIT 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">GIT</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
                             class="aboutme__tech-logo"
@@ -154,7 +168,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">GitHub 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">GitHub</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
                             class="aboutme__tech-logo"
@@ -162,7 +177,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">GulpJS 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">GulpJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" 
                             class="aboutme__tech-logo"
@@ -170,7 +186,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">WebPack 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">WebPack</p>
                         <img 
                             src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" 
                             class="aboutme__tech-logo"
@@ -178,7 +195,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">NPM 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">NPM</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" 
                             class="aboutme__tech-logo"
@@ -186,7 +204,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Composer 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Composer</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" 
                             class="aboutme__tech-logo"
@@ -194,7 +213,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Postman 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Postman</p>
                         <img 
                             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
                             class="aboutme__tech-logo"
@@ -202,7 +222,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Cypress 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Cypress</p>
                         <img 
                             src="https://openviewpartners.com/wp-content/uploads/2020/12/cypress-io-logo-round_-1.png" 
                             class="aboutme__tech-logo"
@@ -210,7 +231,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Graphql 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Graphql</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" 
                             class="aboutme__tech-logo"
@@ -218,7 +240,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech">Firebase 
+                    <li class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Firebase</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" 
                             class="aboutme__tech-logo"
