@@ -16,10 +16,10 @@
     </div>
 
     <div>
-        <h3 class="aboutme__tech-titule">Tech Stack</h3>
+        <h3 data-aos="fade-up" class="aboutme__tech-titule">Tech Stack</h3>
 
         <div class="aboutme__tech">
-            <div class="aboutme__tech-section">
+            <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">FrontEnd</p>
                 <ul class="aboutme__tech-list">
                     <li class="aboutme__tech-element">
@@ -114,7 +114,7 @@
                 </ul>
             </div>
 
-            <div class="aboutme__tech-section">
+            <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">BackEnd</p>
                 <ul class="aboutme__tech-list">
                     <li class="aboutme__tech-element">
@@ -156,7 +156,7 @@
                 </ul>
             </div>
 
-            <div class="aboutme__tech-section">
+            <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">Development Tools</p>
                 <ul class="aboutme__tech-list" >
                     <li class="aboutme__tech-element">
