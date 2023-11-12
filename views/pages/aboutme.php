@@ -22,7 +22,7 @@
             <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">FrontEnd</p>
                 <ul class="aboutme__tech-list">
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">HTML</p> 
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
@@ -31,7 +31,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">CSS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
@@ -40,7 +40,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">SASS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
@@ -49,7 +49,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">JavaScript</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
@@ -58,8 +58,8 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
-                        <p class="aboutme__tech-name">Bootsrap</p>
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
+                        <p class="aboutme__tech-name">Bootstrap</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                             class="aboutme__tech-logo"
@@ -67,7 +67,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">React</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -76,7 +76,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Redux</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" 
@@ -85,7 +85,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">NextJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
@@ -94,7 +94,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Tailwind</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
@@ -103,7 +103,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Gatsby</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-plain.svg" 
@@ -117,7 +117,7 @@
             <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">BackEnd</p>
                 <ul class="aboutme__tech-list">
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">PHP</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
@@ -126,7 +126,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">SQL</p>
                         <img 
                             src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" 
@@ -135,7 +135,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">MySQL</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" 
@@ -144,7 +144,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">NodeJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
@@ -159,7 +159,7 @@
             <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">Development Tools</p>
                 <ul class="aboutme__tech-list" >
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">GIT</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
@@ -168,7 +168,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">GitHub</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
@@ -177,7 +177,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">GulpJS</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" 
@@ -186,7 +186,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">WebPack</p>
                         <img 
                             src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" 
@@ -195,7 +195,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">NPM</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" 
@@ -204,7 +204,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Composer</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" 
@@ -213,7 +213,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Postman</p>
                         <img 
                             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
@@ -222,7 +222,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Cypress</p>
                         <img 
                             src="https://openviewpartners.com/wp-content/uploads/2020/12/cypress-io-logo-round_-1.png" 
@@ -231,7 +231,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Graphql</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" 
@@ -240,7 +240,7 @@
                         ></img>
                     </li>
 
-                    <li class="aboutme__tech-element">
+                    <li data-aos="fade-zoom" class="aboutme__tech-element">
                         <p class="aboutme__tech-name">Firebase</p>
                         <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" 
