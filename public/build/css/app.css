@@ -489,7 +489,6 @@ p {
   color: #000;
 }
 .intro__proyects-proyect-img {
-  background-image: image-set(url(../img/fondo-prog.avif) 1x, url(../img/fondo-prog.webp) 1x, url(../img/fondo-prog.png) 1x);
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 35rem;
@@ -501,6 +500,18 @@ p {
     min-width: 50rem;
     min-height: 30rem;
   }
+}
+
+#proyecto1 {
+  background-image: image-set(url(../img/proyecto1.avif) 1x, url(../img/proyecto1.webp) 1x, url(../img/proyecto1.png) 1x);
+}
+
+#proyecto2 {
+  background-image: image-set(url(../img/proyecto2.avif) 1x, url(../img/proyecto2.webp) 1x, url(../img/proyecto2.png) 1x);
+}
+
+#proyecto3 {
+  background-image: image-set(url(../img/proyecto3.avif) 1x, url(../img/proyecto3.webp) 1x, url(../img/proyecto3.png) 1x);
 }
 
 .aboutme__i {
