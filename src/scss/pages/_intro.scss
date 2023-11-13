@@ -97,7 +97,7 @@
             margin: 2rem;
             background-color: v.$anaranjado;
             width: auto;
-
+            
             @include m.desktop {
                 flex-direction: row;
                 width: 100%;
@@ -113,8 +113,9 @@
             &-img {
                 background-size: cover;
                 background-repeat: no-repeat;
+                background-position: center;
                 min-width: 35rem;
-                min-height: 25rem;
+                min-height: 15rem;
                 margin: 3rem;
 
                 @include m.tablet {

@@ -491,8 +491,9 @@ p {
 .intro__proyects-proyect-img {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-width: 35rem;
-  min-height: 25rem;
+  min-height: 15rem;
   margin: 3rem;
 }
 @media (min-width: 768px) {
