@@ -382,11 +382,16 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6rem;
+  padding: 2rem;
   margin-bottom: 15rem;
   background-image: image-set(url(../img/fondo-prog.avif) 1x, url(../img/fondo-prog.webp) 1x, url(../img/fondo-prog.png) 1x);
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .intro__welcome {
+    padding: 6rem;
+  }
 }
 .intro__welcome::before {
   content: "";
@@ -402,8 +407,14 @@ p {
   padding: 1rem;
   margin-top: 3rem;
   z-index: 2;
+  font-size: 4rem;
 }
 @media (min-width: 768px) {
+  .intro__welcome__titule {
+    font-size: 7rem;
+  }
+}
+@media (min-width: 992px) {
   .intro__welcome__titule {
     font-size: 9rem;
   }
@@ -412,8 +423,14 @@ p {
   padding: 1rem;
   color: #e48c27;
   z-index: 2;
+  font-size: 5rem;
 }
 @media (min-width: 768px) {
+  .intro__welcome__name {
+    font-size: 7rem;
+  }
+}
+@media (min-width: 992px) {
   .intro__welcome__name {
     font-size: 11rem;
   }
@@ -423,6 +440,7 @@ p {
   margin-top: 5rem;
   font-size: 2rem;
   z-index: 2;
+  min-width: 90vw;
 }
 .intro__contact {
   margin-bottom: 15rem;
@@ -493,7 +511,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   min-width: 35rem;
-  min-height: 15rem;
+  min-height: 20rem;
   margin: 3rem;
 }
 @media (min-width: 768px) {
