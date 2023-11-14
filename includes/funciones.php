@@ -21,9 +21,13 @@ function isAuth() : void {
 }
 
 function aos_animacion() : void {
-    $efectos = ['fade-up', 'fade-down'];
+    $efectos = ['flip-left', 'flip-right', 'flip-up', 'flip-down'];
     $efecto = array_rand($efectos, 1);
-    echo ' data-aos="' . $efectos[$efecto] . '" ';
+    
+    $tiempos = ['500', '750', '1000', '1250', '1500',];
+    $tiempo = array_rand($tiempos, 1);
+
+    echo ' data-aos="' . $efectos[$efecto] . '" data-aos-duration="' . $tiempos[$tiempo] .'" ';
 }
 
 function imprimirEnlace($ruta, $nombre) {

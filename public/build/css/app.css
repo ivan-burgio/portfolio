@@ -564,7 +564,7 @@ p {
   height: 11rem;
   position: relative;
   bottom: 0;
-  margin: 3rem;
+  margin: 2rem;
   padding: 1rem;
   background-color: #8a370a;
   border-radius: 1rem;
@@ -594,7 +594,7 @@ p {
 .aboutme__tech-list {
   list-style: none;
   display: grid;
-  gap: 5rem;
+  gap: 2rem;
   grid-template-columns: repeat(5, 1fr);
 }
 .aboutme__tech-logo {
