@@ -405,7 +405,7 @@ p {
 }
 .intro__welcome__titule {
   padding: 1rem;
-  margin-top: 3rem;
+  margin-top: 10rem;
   z-index: 2;
   font-size: 4rem;
 }
@@ -432,15 +432,18 @@ p {
 }
 @media (min-width: 992px) {
   .intro__welcome__name {
-    font-size: 11rem;
+    font-size: 10rem;
   }
 }
-.intro-txt {
+.intro-txt, .intro-txt-center {
   padding: 1rem;
   margin-top: 5rem;
   font-size: 2rem;
   z-index: 2;
   min-width: 90vw;
+}
+.intro-txt-center {
+  text-align: center;
 }
 .intro__contact {
   margin-bottom: 15rem;

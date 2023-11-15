@@ -6,7 +6,7 @@
         <p data-aos="fade-up" class="intro-txt"> I am passionate about Web Development with a solid background in technology. Currently, I work as a programmer and actively participate in continuing training programs in the technological field. My main goal is to continue growing and constantly improving my programming skills while contributing to the Information Technology (IT) sector.</p>
     </div>
 
-    <p data-aos="fade-up" class="intro-txt">
+    <p data-aos="fade-up" class="intro-txt-center">
         My latest projects that I did practice are the following. <br>
         Clicking on the image will take you to the repository.
     </p>
@@ -51,7 +51,7 @@
     </div>
 
     <div data-aos="fade-up" class="intro__contact">
-        <p class="intro-txt">If you want to contact me you can do so by different means.</p>
+        <p class="intro-txt-center">If you want to contact me you can do so by different means.</p>
         <a href="/contact" class="intro__contact-btn">Contact me</a>
     </div>
 </main>
