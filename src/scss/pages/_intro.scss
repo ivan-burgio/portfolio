@@ -85,7 +85,10 @@
     }
 
     &__contact {
+        display: flex;
+        flex-direction: column;
         margin-bottom: 15rem;
+        align-items: center;
 
         &-btn {
             @include m.boton(v.$anaranjado, v.$black);
