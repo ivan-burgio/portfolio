@@ -39,3 +39,21 @@ function nameActivo($ruta) {
     $clase = ($_SERVER['REQUEST_URI'] === $ruta) ? 'active' : '';
     echo '<p class="nav__name ' . $clase .'">Ivan Burgio</p>';
 }
+
+function agregarBrDespuesDePunto($texto) {
+    // Reemplaza los puntos con punto y salto de línea
+    $textoConBr = str_replace('.', '.<br>', $texto);
+    return $textoConBr;
+}
+
+function proyects_template($link, $img, $txt) { 
+    echo '
+    <div data-aos="fade-up" class="proyects-proyect">
+        <a id="proyecto3" href="' . $link . '" class="proyects-proyect-img">
+            <img src="' . $img . '" alt="' . $link . '"></img>
+        </a>
+        <p class="proyects-proyect-info">
+            ' . agregarBrDespuesDePunto($txt) . '
+        </p>
+    </div>';
+}
