@@ -60,7 +60,6 @@
             margin: 2rem;
             padding: 1rem;
             background-color: v.$marron;
-            border-radius: 1rem;
 
             &::before {
                 content: "";
@@ -91,7 +90,10 @@
 
         &-list {
             list-style: none;
-            @include m.grid(5, 2rem);
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
         }
 
         &-logo {
