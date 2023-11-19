@@ -39,7 +39,7 @@
 
         <?php proyects_template( // 6ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-appsalon-mvc',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw6.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
@@ -48,7 +48,7 @@
 
         <?php proyects_template( // 5ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-bienes-raices-mvc',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw5.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
@@ -57,7 +57,7 @@
 
         <?php proyects_template( // 4ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-festival-musica',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw4.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
@@ -66,7 +66,7 @@
 
         <?php proyects_template( // 3ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-blog-cafe',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw3.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
@@ -75,7 +75,7 @@
 
         <?php proyects_template( // 2ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-frontend-store',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw2.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
@@ -84,7 +84,7 @@
 
         <?php proyects_template( // 1ª Proyecto Desarrollo Web
             'https://github.com/ivan-burgio/proyecto-web-freelancer',
-            '/build/img/proyecto3.png',
+            '/build/img/proyecto_dw1.png',
             'This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
