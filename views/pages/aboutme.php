@@ -94,7 +94,7 @@
             <div data-aos="fade-up" class="aboutme__tech-section">
                 <p class="aboutme__tech-titules">Development Tools</p>
                 <ul class="aboutme__tech-list" >
-                <?php
+                    <?php
                         techs_template(
                             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', 
                             'GIT'
