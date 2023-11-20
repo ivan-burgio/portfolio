@@ -22,7 +22,8 @@
     <?php proyects_template( // 8ª Proyecto Desarrollo Web
         'https://github.com/ivan-burgio/proyecto-devwebcamp-mvc',
         '/build/img/proyecto_dw8.png',
-        'This site is a website to organize events.
+        'Eighth project of the Complete Web Development course.
+        This site is a website to organize events.
         It has sections for account creation, login and recovery.
         It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
         It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
@@ -40,28 +41,27 @@
     <?php proyects_template( // 6ª Proyecto Desarrollo Web
         'https://github.com/ivan-burgio/proyecto-appsalon-mvc',
         '/build/img/proyecto_dw6.png',
-        'This site is a website to organize events.
-        It has sections for account creation, login and recovery.
-        It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
-        It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
+        'Sixth Web Development Study Project.
+        This page simulates a barbershop website, where you can make reservations at the time you prefer with some limitations such as that on Sundays you cannot choose a time, nor at noon, to give more realism to the times that could be run a barbershop.
+        It is built using Model View Controller with PHP, JavaScript, HTML and SASS.'
     ); ?>
 
     <?php proyects_template( // 5ª Proyecto Desarrollo Web
         'https://github.com/ivan-burgio/proyecto-bienes-raices-mvc',
         '/build/img/proyecto_dw5.png',
-        'This site is a website to organize events.
-        It has sections for account creation, login and recovery.
-        It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
-        It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
+        'Fifth project of the course using MVC.
+        This project is built with JavaScript, HTML and SASS for the client side; and for the server side PHP, MySQL and SQL are used.
+        It also contains many dependencies for JavaScript using NPM and for PHP using Composer.
+        Without entering the administration part of the page you can see the property and blog information that comes from the database.
+        In addition to the backend, the site has password and image hashing; URLs protected unless you are logged in with the admin account; sanitization of entries and urls; sending emails.'
     ); ?>
 
     <?php proyects_template( // 4ª Proyecto Desarrollo Web
         'https://github.com/ivan-burgio/proyecto-festival-musica',
         '/build/img/proyecto_dw4.png',
-        'This site is a website to organize events.
-        It has sections for account creation, login and recovery.
-        It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
-        It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
+        'Fourth project, built in order to practice and understand the use of JavaScript in the frontend, as well as SASS and the use of NPM libraries for JavaScript.
+        This site simulates a page in order to promote a Rock concert with different bands.
+        A good feature to highlight is that the nav is superimposed, making navigation easier. Additionally, the images below are generated entirely with JavaScript, thus improving the optimization of the site.'
     ); ?>
 
     <?php proyects_template( // 3ª Proyecto Desarrollo Web
@@ -76,9 +76,9 @@
     <?php proyects_template( // 2ª Proyecto Desarrollo Web
         'https://github.com/ivan-burgio/proyecto-frontend-store',
         '/build/img/proyecto_dw2.png',
-        'Second web development project.
+        'Second web development project. <br>
         The purpose of this website was to learn more about Responsive, CSS Grid and CSS FlexBox among some other tools and properties.
-        The project simulates a virtual t-shirt store.
+        The project simulates a virtual t-shirt store. <br>
         Each link to see each shirt is a different html file, so it is quite heavy and not very scalable.'
     ); ?>
 
