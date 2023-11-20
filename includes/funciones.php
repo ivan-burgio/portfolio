@@ -57,3 +57,16 @@ function proyects_template($link, $img, $txt) {
         </p>
     </div>';
 }
+
+function techs_template($img, $nombre) {
+    echo '
+        <li data-aos="flip-up" class="aboutme__tech-element">
+            <p class="aboutme__tech-name">' . $nombre .'</p>
+            <img 
+                src="' . $img .'" 
+                class="aboutme__tech-logo"
+                alt="logo ' . $nombre .'"
+            ></img>
+        </li>
+    ';
+}
