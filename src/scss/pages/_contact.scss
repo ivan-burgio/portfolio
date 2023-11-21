@@ -19,13 +19,15 @@
             align-items: center;
             justify-content: center;
             background-color: v.$anaranjado;
+            color: v.$black;
             font-size: 5rem;
             border-radius: .5rem;
             width: 5.5rem;
             height: 5.5rem;
 
             &:hover {
-                background-color: v.$amarillo;
+                background-color: v.$marron;
+                color: v.$white;
             }
         }
     }
