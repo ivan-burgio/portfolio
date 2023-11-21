@@ -1,0 +1,72 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 20rem;
+        height: 5rem;
+        margin: 2rem;
+
+        &-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: v.$anaranjado;
+            font-size: 5rem;
+            border-radius: .5rem;
+            width: 5.5rem;
+            height: 5.5rem;
+
+            &:hover {
+                background-color: v.$amarillo;
+            }
+        }
+    }
+
+    &__label {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 2rem;
+
+        &-mj {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 2rem;
+        }
+
+        &-input {
+            width: 70%;
+            height: 3rem;
+            background-color: v.$gray;
+            color: v.$white;
+            margin: 2rem;
+            border: 1px v.$gray-light solid;
+            border-radius: 0.5rem;
+
+            @include m.desktop {
+                width: 40%;
+            }
+        }
+        
+        &-area {
+            @extend .contact__form-input;
+            height: 20rem;
+        }
+    }
+}

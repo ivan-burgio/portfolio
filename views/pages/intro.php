@@ -81,11 +81,11 @@
     
     <div data-aos="fade-up" class="intro__moreinfo">
         <p class="intro-txt-center">To see all my projects</p>
-        <a href="/projects" class="intro__moreinfo-btn">Proyects</a>
+        <a href="/projects" class="btnGeneral">Proyects</a>
     </div>
 
     <div data-aos="fade-up" class="intro__moreinfo">
         <p class="intro-txt-center">If you want to contact me you can do so by different means.</p>
-        <a href="/contact" class="intro__moreinfo-btn">Contact me</a>
+        <a href="/contact" class="btnGeneral">Contact me</a>
     </div>
 </main>
