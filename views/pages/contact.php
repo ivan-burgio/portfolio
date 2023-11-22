@@ -11,17 +11,22 @@
         </a>
     </div>
 
-    <form data-aos="fade-up" class="contact__form" id="formularioCorreo">
-        <label class="contact__label" for="mail">Email <i class="fa-solid fa-envelope" style="color: #ffffff;"></i></label>
+    <form data-aos="fade-up" class="contact__form" id="formularioCorreo" action="https://formsubmit.co/ivan.24.burgio@gmail.com" method="POST">
+        <label class="contact__label" for="name">Name</label>
+        <input class="contact__form-input" placeholder="Your name" type="text" id="name" name="name" required>
+        
+        <label class="contact__label" for="mail">Email</label>
         <input class="contact__form-input" placeholder="Your email" type="email" id="mail" name="mail" required>
 
         <div class="contact__form-mj" id="mensajeTextarea" style="display: none;">
-            <label class="contact__label" for="mensaje">Message <i class="fa-solid fa-keyboard" style="color: #ffffff;"></i></label>
-            <textarea class="contact__form-area" placeholder="Your message for me" id="mensaje" name="mensaje" rows="4" cols="50" required readOnly></textarea>
+            <label class="contact__label" for="message">Message</label>
+            <textarea class="contact__form-area" placeholder="Your message for me" id="message" name="message" rows="4" cols="50" required readOnly></textarea>
         </div>
 
         <div data-aos="fade-up" class="intro__moreinfo">
             <input class="btnGeneral" id="enviarButton" type="submit" value="Send">
+            <input type="hidden" name="_next" value="http://localhost:3000">
+            <input type="hidden" name="_captcha" value="false">
         </div>
     </form>
 </main>
