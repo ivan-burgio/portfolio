@@ -1,8 +1,7 @@
 <h2>COMING SOON..</h2>
 
-<main class="auth">
+<!-- <main class="auth">
     <h2 class="auth__heading"><?php echo $titulo ?></h2>
-    <p class="auth__texto">Inicia sesión en DevWebCamp</p>
 
     <?php require_once __DIR__ . '/../templates/alertas.php'; ?>
 
@@ -37,4 +36,4 @@
         <a href="/olvide" class="acciones__enlaces">¿Olvidaste tu contraseña? Cambiala.</a>
     </div>
 
-</main>
+</main> -->
