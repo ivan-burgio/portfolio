@@ -6,6 +6,11 @@ use MVC\Router;
 
 class LoginController {
     public static function login(Router $router) {
+        // Render a la vista
+        $router->render('auth/login', [
+            'titulo_pestaña' => 'Admin',
+        ]);
+        /*
         $alertas =[];
 
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -145,5 +150,6 @@ class LoginController {
             'alertas' => $alertas,
             'mostrar' => $mostrar
         ]);
+        */
     }
 }
