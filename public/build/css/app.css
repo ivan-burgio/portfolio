@@ -638,6 +638,8 @@ p {
   border-radius: 0.5rem;
   width: 5.5rem;
   height: 5.5rem;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
 }
 .contact__redes-link:hover {
   background-color: #8a370a;
@@ -765,6 +767,8 @@ p {
   z-index: 3;
   background-color: #696969;
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 0.2s;
 }
 .nav__logo:hover {
   background-color: #FFFFFF;
@@ -778,6 +782,8 @@ p {
   color: #FFFFFF;
   text-transform: uppercase;
   line-height: 1.15;
+  transition-property: border-bottom, color;
+  transition-duration: 0.2s;
 }
 .nav__name:hover {
   border-bottom: 1px solid #FFFFFF;
@@ -820,6 +826,8 @@ p {
   position: relative;
   color: #696969;
   text-transform: uppercase;
+  transition-property: border-bottom, color;
+  transition-duration: 0.2s;
 }
 .nav__link:hover {
   border-bottom: 1px solid #FFFFFF;

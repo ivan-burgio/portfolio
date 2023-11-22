@@ -39,7 +39,7 @@
 
     <div data-aos="fade-up" class="intro__moreinfo">
         <p class="intro-txt-center">To see all the technologies I know.</p>
-        <a href="/aboutme" class="intro__moreinfo-btn">Aboutme</a>
+        <a href="/aboutme" class="btnGeneral">Aboutme</a>
     </div>
 
     <p data-aos="fade-up" class="intro-txt-center">

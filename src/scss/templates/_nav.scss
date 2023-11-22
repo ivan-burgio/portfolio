@@ -101,6 +101,8 @@
         z-index: 3;
         background-color: v.$gray-light;
         border-radius: 50%;
+        transition-property: background-color;
+        transition-duration: .2s;
 
         &:hover {
             background-color: v.$white;
@@ -116,6 +118,8 @@
         color: v.$white;
         text-transform: uppercase;
         line-height: 1.15;
+        transition-property: border-bottom, color;
+        transition-duration: .2s;
 
         &:hover {
             border-bottom: 1px solid v.$white;
@@ -159,6 +163,8 @@
         position: relative;
         color: v.$gray-light;
         text-transform: uppercase;
+        transition-property: border-bottom, color;
+        transition-duration: .2s;
 
         &:hover {
             border-bottom: 1px solid v.$white;

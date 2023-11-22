@@ -24,6 +24,8 @@
             border-radius: .5rem;
             width: 5.5rem;
             height: 5.5rem;
+            transition-property: background-color, color;
+            transition-duration: .2s;
 
             &:hover {
                 background-color: v.$marron;

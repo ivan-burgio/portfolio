@@ -1,12 +1,12 @@
 <main class="main contact">
     <div class="contact__redes">
-        <a class="contact__redes-link" href="https://github.com/ivan-burgio">
+        <a class="contact__redes-link" href="https://github.com/ivan-burgio" target="_blank">
             <i class="fa-brands fa-github"></i>
         </a>
-        <a class="contact__redes-link" href="https://www.linkedin.com/in/ivan-burgio/">
+        <a class="contact__redes-link" href="https://www.linkedin.com/in/ivan-burgio/" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a class="contact__redes-link" href="https://www.instagram.com/ivan_burgio/">
+        <a class="contact__redes-link" href="https://www.instagram.com/ivan_burgio/" target="_blank">
             <i class="fa-brands fa-instagram"></i>
         </a>
     </div>
