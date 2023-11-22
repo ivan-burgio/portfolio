@@ -681,6 +681,10 @@ p {
   height: 20rem;
 }
 
+#enviarButton {
+  display: none;
+}
+
 .nav {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 <main class="main contact">
-    <div class="contact__redes">
+    <div data-aos="flip-up" class="contact__redes">
         <a class="contact__redes-link" href="https://github.com/ivan-burgio" target="_blank">
             <i class="fa-brands fa-github"></i>
         </a>
@@ -11,7 +11,7 @@
         </a>
     </div>
 
-    <form class="contact__form" id="formularioCorreo">
+    <form data-aos="fade-up" class="contact__form" id="formularioCorreo">
         <label class="contact__label" for="mail">Email <i class="fa-solid fa-envelope" style="color: #ffffff;"></i></label>
         <input class="contact__form-input" placeholder="Your email" type="email" id="mail" name="mail" required>
 
@@ -21,7 +21,7 @@
         </div>
 
         <div data-aos="fade-up" class="intro__moreinfo">
-            <input class="btnGeneral" type="submit" value="Send">
+            <input class="btnGeneral" id="enviarButton" type="submit" value="Send">
         </div>
     </form>
 </main>
