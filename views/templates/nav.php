@@ -29,12 +29,10 @@
             <div id="toggleNav" class="nav__toggle-image"></div>
 
             <div id="navLinks" class="nav__links">
-                <div id="navLinks" class="nav__links">
-                    <?php imprimirEnlace('/aboutme', 'About me'); ?>
-                    <?php imprimirEnlace('/projects', 'Projects'); ?>
-                    <?php imprimirEnlace('/contact', 'Contact'); ?>
-                    <?php imprimirEnlace('/login', 'Admin'); ?>
-                </div>
+                <?php imprimirEnlace('/aboutme', 'About me'); ?>
+                <?php imprimirEnlace('/projects', 'Projects'); ?>
+                <?php imprimirEnlace('/contact', 'Contact'); ?>
+                <?php imprimirEnlace('/login', 'Admin'); ?>
             </div>
         </div>
     </div>
