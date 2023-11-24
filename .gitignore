@@ -1,8 +1,4 @@
 node_modules/
-.vscode/
-src/
 vendor/
-README.md
-composer.lock
-package-lock.json
-package.json
+.vscode/
+includes/.env

@@ -11,7 +11,13 @@
         </a>
     </div>
 
-    <form data-aos="fade-up" class="contact__form" id="formularioCorreo" action="https://formsubmit.co/ivan.24.burgio@gmail.com" method="POST">
+    <form 
+        data-aos="fade-up" 
+        class="contact__form" 
+        id="formularioCorreo" 
+        action='https://formsubmit.co/<?php echo $_ENV['EMAIL_MAIL']; ?>' 
+        method="POST"
+    >
         <label class="contact__label" for="name">Name</label>
         <input class="contact__form-input" placeholder="Your name" type="text" id="name" name="name" required>
         
@@ -25,7 +31,7 @@
 
         <div data-aos="fade-up" class="intro__moreinfo">
             <input class="btnGeneral" id="enviarButton" type="submit" value="Send">
-            <input type="hidden" name="_next" value="http://localhost:3000">
+            <input type="hidden" name="_next" value='<?php echo $_ENV['PROYECT_URL']; ?>'>
             <input type="hidden" name="_captcha" value="false">
         </div>
     </form>

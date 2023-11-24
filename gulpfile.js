@@ -1,4 +1,4 @@
-const {src, dest, watch, parallel} = require('gulp');
+const {src, dest, watch, parallel, series, task} = require('gulp');
 
 // CSS
 const sass = require('gulp-sass')(require('sass'));
@@ -35,6 +35,7 @@ function css() {
         .pipe( sourcemaps.write('.'))
         .pipe(  dest('public/build/css') );
 }
+
 function javascript() {
     return src(paths.js)
         .pipe(webpack({
@@ -47,15 +48,14 @@ function javascript() {
                 ]
             },
             mode: 'production',
-            watch: true,
+            // Eliminado watch: true
             entry: './src/js/app.js'
         }))
         .pipe(sourcemaps.init())
-        //.pipe(concat('bundle.js')) 
         .pipe(terser())
         .pipe(sourcemaps.write('.'))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(dest('./public/build/js'))
+        .pipe(dest('./public/build/js'));
 }
 
 function imagenes() {
@@ -84,18 +84,26 @@ function versionAvif( done ) {
     done();
 }
 
-function dev(done) {
-    watch( paths.scss, css );
-    watch( paths.js, javascript );
-    watch( paths.imagenes, imagenes)
-    watch( paths.imagenes, versionWebp)
-    watch( paths.imagenes, versionAvif)
-    done()
+task('watch', () => {
+    watch(paths.scss, css);
+    watch(paths.js, build);
+    watch(paths.imagenes, imagenes);
+    watch(paths.imagenes, versionWebp);
+    watch(paths.imagenes, versionAvif);
+});
+
+function dev() {
+    return parallel('watch', build)();
 }
+
+const build = series(css, javascript, imagenes, versionWebp, versionAvif);
 
 exports.css = css;
 exports.js = javascript;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
-exports.dev = parallel( css, imagenes, versionWebp, versionAvif, javascript, dev) ;
+exports.dev = dev;
+exports.build = build;
+
+exports.default = dev;

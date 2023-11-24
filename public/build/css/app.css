@@ -859,7 +859,6 @@ p {
     display: flex;
   }
 }
-
 #navLinks.desplegado {
   display: flex;
   flex-direction: column;
