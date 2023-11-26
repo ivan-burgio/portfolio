@@ -1,4 +1,4 @@
-﻿# Portfolio of Iván Burgio - First Version _(v1.0.5)_
+﻿# Portfolio of Iván Burgio - First Version _(v1.1.0)_
 
 An initial glimpse into Iván Burgio's portfolio, highlighting his passion for web development, current work experience, and recent projects. Invites exploration of the "About Me" and "Projects" sections for further insight. Includes direct contact options and reflects Iván's initial commitment to web development.
 
@@ -19,3 +19,5 @@ This section showcases some recent projects. Each project includes a link to the
 **contact.php**
 
 The contact section offers various ways to communicate with the developer. Links to profiles on GitHub, LinkedIn, and Instagram are included, providing multiple contact options. Additionally, a contact form with fields for name, email, and message is incorporated, connected to a form submission service. The inclusion of social media links and a contact form facilitates communication for visitors based on their preferences.
+
+Deployment: https://ivan-burgio.com
