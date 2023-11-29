@@ -49,7 +49,7 @@ function agregarBrDespuesDePunto($texto) {
 function proyects_template($link, $img, $txt) { 
     echo '
     <div data-aos="fade-up" class="proyects-proyect">
-        <a id="proyecto3" href="' . $link . '" class="proyects-proyect-img" target="_blank">
+        <a href="' . $link . '" class="proyects-proyect-img" target="_blank">
             <img src="' . $img . '" alt="' . $link . '"></img>
         </a>
         <p class="proyects-proyect-info">
