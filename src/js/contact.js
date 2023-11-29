@@ -10,7 +10,7 @@ mailInput.addEventListener('input', checkShowMessage);
 
 // Evento para el textarea
 mensajeTextareaInput.addEventListener('input', function() {
-    if (this.value.length >= 100) {
+    if (this.value.length >= 10) {
         enviarButton.style.display = 'flex';
     } else {
         enviarButton.style.display = 'none';
