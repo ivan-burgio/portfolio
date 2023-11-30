@@ -46,11 +46,21 @@ function agregarBrDespuesDePunto($texto) {
     return $textoConBr;
 }
 
-function proyects_template($link, $img, $txt) { 
+function proyects_template($link, $imgFormats, $txt) {
     echo '
     <div data-aos="fade-up" class="proyects-proyect">
-        <a id="proyecto3" href="' . $link . '" class="proyects-proyect-img" target="_blank">
-            <img src="' . $img . '" alt="' . $link . '"></img>
+        <a href="' . $link . '" class="proyects-proyect-img" target="_blank">';
+
+    echo '<picture>';
+
+    foreach ($imgFormats as $format => $src) {
+        echo '
+            <source srcset="' . $src . '" type="image/' . $format . '">';
+    }
+
+    echo '
+            <img src="' . $imgFormats['png'] . '" alt="' . htmlspecialchars($link) . '" loading="lazy">
+        </picture>
         </a>
         <p class="proyects-proyect-info">
             ' . agregarBrDespuesDePunto($txt) . '
@@ -66,6 +76,7 @@ function techs_template($img, $nombre) {
                 src="' . $img .'" 
                 class="aboutme__tech-logo"
                 alt="logo ' . $nombre .'"
+                loading="lazy"
             ></img>
         </li>
     ';
