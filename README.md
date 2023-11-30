@@ -1,4 +1,4 @@
-﻿# Portfolio of Iván Burgio - _v1.1.5_
+﻿# Portfolio of Iván Burgio - _v1.1.6_
 
 The idea of this update is to improve the optimization of the page, fix errors and details that were found. <br>
 
@@ -29,7 +29,7 @@ _v1.1.5_ <br>
 commit: 167fc10 <br>
 Files changes: includes/funciones.php <br>
 
-**Improved image uploads and optimization.**
+**Improved image uploads and optimization.** <br>
 _v1.1.6_ <br>
 commit: 291a826 <br>
 Files changes: includes/funciones.php, views/pages-layout.php, pages/intro.php, pages/projects.php <br>
