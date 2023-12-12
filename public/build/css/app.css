@@ -625,10 +625,16 @@ p {
 }
 .proyects-proyect__botones {
   width: 90%;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .proyects-proyect__botones {
+    flex-direction: row;
+  }
 }
 
 .contact {

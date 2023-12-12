@@ -43,10 +43,15 @@
 
         &__botones {
             width: 90%;
+            flex-direction: column;
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 5rem;
+
+            @include m.tablet {
+                flex-direction: row;
+            }
         }
     }
 }
