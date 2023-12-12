@@ -20,6 +20,28 @@
     </div>
 
     <div>
+        <h3 data-aos="fade-up" class="aboutme__career-titule">Career</h3>
+
+        <div data-aos="fade-up" class="aboutme__career-section">
+            <p class="aboutme__career-titules">Experience</p>
+            <ul class="aboutme__career-list">
+                <li>
+                    <p class="aboutme__career-title">Programmer</p>
+                    <a class="aboutme__career-company" href="https://www.acsa.com.uy" target="_blank">ACSA - Real Estate</a>
+                    <p class="aboutme__career-duration">Nov. 2023 - present (<?php echo calculateExperienceDuration("2023-11-07"); ?>)</p>
+                </li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-up" class="aboutme__career-section">
+            <p class="aboutme__career-titules">Studies</p>
+            <ul class="aboutme__career-list">
+
+            </ul>
+        </div>
+    </div>
+
+    <div>
         <h3 data-aos="fade-up" class="aboutme__tech-titule">Tech Stack</h3>
 
         <div class="aboutme__tech">

@@ -95,3 +95,13 @@ function techs_template($img, $nombre) {
         </li>
     ';
 }
+
+function calculateExperienceDuration($startDate) {
+    $startTimestamp = strtotime($startDate);
+    $currentTimestamp = time();
+
+    $diff = $currentTimestamp - $startTimestamp;
+    $months = floor($diff / (30 * 24 * 60 * 60)); // Asumiendo un mes de 30 días
+
+    return $months . " months";
+}
