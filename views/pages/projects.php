@@ -1,10 +1,26 @@
 <main class="main proyects">
     <?php
+        proyects_template( // 3ª Proyecto React
+            'https://cotizadorcriptos-ivanburgio.netlify.app',
+            'https://github.com/ivan-burgio/proyecto-criptos-vite',
+            [
+                'avif' => '/build/img/proyecto_react3.avif',
+                'jpg' => '/build/img/proyecto_react3.png',
+                'webp' => '/build/img/proyecto_react3.webp',
+            ],
+            'This project is a site to quote cryptocurrencies, this is done through an API
+            There is data validation.
+            The data of the requested cryptocurrencies is loaded at the moment.
+            It also has a spinner which is displayed while the query is loaded to the API.
+            And what I consider most important is with the creation of our own Hooks.'
+        );
+
         proyects_template( // 2ª Proyecto React
+            'https://controlgastos-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-control-gastos-vite',
             [
                 'avif' => '/build/img/proyecto_react2.avif',
-                'jpg' => '/build/img/proyecto_react2.jpg',
+                'png' => '/build/img/proyecto_react2.png',
                 'webp' => '/build/img/proyecto_react2.webp',
             ],
             'This project is a site to keep track of your expenses, you can enter an initial amount and then add different expenses that you have to be able to keep precise control of your money.
@@ -12,11 +28,13 @@
             You can also edit and delete some expenses and the budget value is updated in real time along with the graph.
             Personally, I consider it very useful to the point that I am going to use it in my daily life.'
         );
+
         proyects_template( // 1ª Proyecto React
+            'https://administradorpacientes-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-administrador-pacientes-vite',
             [
                 'avif' => '/build/img/proyecto_react1.avif',
-                'jpg' => '/build/img/proyecto_react1.jpg',
+                'png' => '/build/img/proyecto_react1.png',
                 'webp' => '/build/img/proyecto_react1.webp',
             ],
             'This project is a simulation of a patient manager in a veterinary clinic.
@@ -26,7 +44,9 @@
             ✅Patient editing and deletion functionality, making it a truly useful tool for patient management in a clinic.
             To build this project, I used Vite for the initial files, React for creating the interface, and TailwindCSS to give it a nice look. I also implemented Hooks like useEffect and useState, which are essential in developing React applications.'
         );
+
         proyects_template( // 8ª Proyecto Desarrollo Web
+            false,
             'https://github.com/ivan-burgio/proyecto-devwebcamp-mvc',
             [
                 'avif' => '/build/img/proyecto_dw8.avif',
@@ -39,7 +59,9 @@
             It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
             It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
         );
+        
         proyects_template( // 7ª Proyecto Desarrollo Web
+            false,
             'https://github.com/ivan-burgio/proyecto-uptask-mvc',
             [
                 'avif' => '/build/img/proyecto_dw7.avif',
@@ -51,7 +73,9 @@
             It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
             It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
         );
+
         proyects_template( // 6ª Proyecto Desarrollo Web
+            false,
             'https://github.com/ivan-burgio/proyecto-appsalon-mvc',
             [
                 'avif' => '/build/img/proyecto_dw6.avif',
@@ -62,7 +86,9 @@
             This page simulates a barbershop website, where you can make reservations at the time you prefer with some limitations such as that on Sundays you cannot choose a time, nor at noon, to give more realism to the times that could be run a barbershop.
             It is built using Model View Controller with PHP, JavaScript, HTML and SASS.'
         );
+
         proyects_template( // 5ª Proyecto Desarrollo Web
+            false,
             'https://github.com/ivan-burgio/proyecto-bienes-raices-mvc',
             [
                 'avif' => '/build/img/proyecto_dw5.avif',
@@ -75,7 +101,9 @@
             Without entering the administration part of the page you can see the property and blog information that comes from the database.
             In addition to the backend, the site has password and image hashing; URLs protected unless you are logged in with the admin account; sanitization of entries and urls; sending emails.'
         );
+
         proyects_template( // 4ª Proyecto Desarrollo Web
+            'https://festivalmusica-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-festival-musica',
             [
                 'avif' => '/build/img/proyecto_dw4.avif',
@@ -86,7 +114,9 @@
             This site simulates a page in order to promote a Rock concert with different bands.
             A good feature to highlight is that the nav is superimposed, making navigation easier. Additionally, the images below are generated entirely with JavaScript, thus improving the optimization of the site.'
         );
+
         proyects_template( // 3ª Proyecto Desarrollo Web
+            'https://blogdecafe-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-blog-cafe',
             [
                 'avif' => '/build/img/proyecto_dw3.avif',
@@ -98,7 +128,9 @@
             The project simulates a website where you can learn different ways of making coffee through a variety of courses.
             The site also contains a library of JavaScript, Modernizr, and CSS Normalize.'
         );
+
         proyects_template( // 2ª Proyecto Desarrollo Web
+            'https://frontendstore-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-frontend-store',
             [
                 'avif' => '/build/img/proyecto_dw2.avif',
@@ -110,7 +142,9 @@
             The project simulates a virtual t-shirt store. <br>
             Each link to see each shirt is a different html file, so it is quite heavy and not very scalable.'
         );
+
         proyects_template( // 1ª Proyecto Desarrollo Web
+            'https://freelancer-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-web-freelancer',
             [
                 'avif' => '/build/img/proyecto_dw1.avif',

@@ -35,3 +35,11 @@ img {
         background-color: v.$marron;
     }
 }
+
+.btnGeneral--disabled {
+    @extend .btnGeneral;
+    
+    &:hover {
+        cursor: not-allowed;
+    }
+}

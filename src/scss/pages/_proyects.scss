@@ -40,5 +40,13 @@
                 min-height: 30rem;
             }
         }
+
+        &__botones {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5rem;
+        }
     }
 }

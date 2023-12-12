@@ -49,7 +49,23 @@
 
     <div class="main proyects">
         <?php
+            proyects_template( // 3ª Proyecto React
+                'https://cotizadorcriptos-ivanburgio.netlify.app',
+                'https://github.com/ivan-burgio/proyecto-criptos-vite',
+                [
+                    'avif' => '/build/img/proyecto_react3.avif',
+                    'jpg' => '/build/img/proyecto_react3.png',
+                    'webp' => '/build/img/proyecto_react3.webp',
+                ],
+                'This project is a site to quote cryptocurrencies, this is done through an API
+                There is data validation.
+                The data of the requested cryptocurrencies is loaded at the moment.
+                It also has a spinner which is displayed while the query is loaded to the API.
+                And what I consider most important is with the creation of our own Hooks.'
+            );
+
             proyects_template( // 2ª Proyecto React
+                'https://controlgastos-ivanburgio.netlify.app',
                 'https://github.com/ivan-burgio/proyecto-control-gastos-vite',
                 [
                     'avif' => '/build/img/proyecto_react2.avif',
@@ -63,6 +79,7 @@
             );
 
             proyects_template( // 1ª Proyecto React
+                'https://administradorpacientes-ivanburgio.netlify.app',
                 'https://github.com/ivan-burgio/proyecto-administrador-pacientes-vite',
                 [
                     'avif' => '/build/img/proyecto_react1.avif',
@@ -75,20 +92,6 @@
                 ✅Data persistence in localstorage to maintain a record of patients.
                 ✅Patient editing and deletion functionality, making it a truly useful tool for patient management in a clinic.
                 To build this project, I used Vite for the initial files, React for creating the interface, and TailwindCSS to give it a nice look. I also implemented Hooks like useEffect and useState, which are essential in developing React applications.'
-            );
-
-            proyects_template( // 8ª Proyecto Desarrollo Web
-                'https://github.com/ivan-burgio/proyecto-devwebcamp-mvc',
-                [
-                    'avif' => '/build/img/proyecto_dw8.avif',
-                    'png' => '/build/img/proyecto_dw8.png',
-                    'webp' => '/build/img/proyecto_dw8.webp',
-                ],
-                'Eighth project of the Complete Web Development course.
-                This site is a website to organize events.
-                It has sections for account creation, login and recovery.
-                It also has the creation of events, and speakers; You can view registered users with their lesson plan among other things in the administration section.
-                It has alert systems to notify the user if data is missing or entered incorrectly and the security of the site includes URL protection, password hashing as shown in the video, sanitization of data to be entered, among other things.'
             );
         ?>
     </div>

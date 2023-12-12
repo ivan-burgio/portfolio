@@ -3,7 +3,7 @@
         'name' => 'ivanburgio/portafolio',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a7145c4ef58a4b8fd33c1ea38ec1938c43a3c257',
+        'reference' => '9d10bbc0692f19d4babece3dfafe701c441d9b98',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'ivanburgio/portafolio' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a7145c4ef58a4b8fd33c1ea38ec1938c43a3c257',
+            'reference' => '9d10bbc0692f19d4babece3dfafe701c441d9b98',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

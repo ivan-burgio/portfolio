@@ -335,7 +335,7 @@ img {
   height: auto;
 }
 
-.btnGeneral {
+.btnGeneral, .btnGeneral--disabled {
   background-color: #e48c27;
   padding: 1.2rem 3.5rem;
   color: #000;
@@ -354,19 +354,23 @@ img {
   font-size: 2.5rem;
 }
 @media (min-width: 768px) {
-  .btnGeneral {
+  .btnGeneral, .btnGeneral--disabled {
     width: auto;
   }
 }
-.btnGeneral:hover {
+.btnGeneral:hover, .btnGeneral--disabled:hover {
   background-color: #935712;
   color: #FFFFFF;
   cursor: pointer;
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
-.btnGeneral:hover {
+.btnGeneral:hover, .btnGeneral--disabled:hover {
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
   background-color: #8a370a;
+}
+
+.btnGeneral--disabled:hover {
+  cursor: not-allowed;
 }
 
 h1, h2, h3 {
@@ -618,6 +622,13 @@ p {
     min-width: 50rem;
     min-height: 30rem;
   }
+}
+.proyects-proyect__botones {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .contact {
