@@ -1,4 +1,4 @@
-# Portfolio of Iván Burgio - _v1.1.6_
+# Portfolio of Iván Burgio - _v1.3.1_
 
 An initial glimpse into Iván Burgio's portfolio, highlighting his passion for web development, current work experience, and recent projects. Invites exploration of the "About Me" and "Projects" sections for further insight. Includes direct contact options and reflects Iván's initial commitment to web development.
 
