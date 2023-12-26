@@ -26,8 +26,8 @@
                     'PHP'
                 );
                 techs_template(
-                    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg', 
-                    'MySQL'
+                    'https://www.svgrepo.com/show/331760/sql-database-generic.svg',
+                    'SQL'
                 );
                 techs_template(
                     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', 
@@ -43,8 +43,7 @@
     </div>
 
     <p data-aos="fade-up" class="intro-txt-center">
-        My latest projects that I did practice are the following. <br>
-        Clicking on the image will take you to the repository.
+        My latest projects that I did practice are the following.
     </p>
 
     <div class="main proyects">
@@ -94,12 +93,7 @@
     </div>
     
     <div data-aos="fade-up" class="intro__moreinfo">
-        <p class="intro-txt-center">To see all my projects</p>
+        <p class="intro-txt-center">To see all my projects.</p>
         <a href="/projects" class="btnGeneral">Proyects</a>
-    </div>
-
-    <div data-aos="fade-up" class="intro__moreinfo">
-        <p class="intro-txt-center">If you want to contact me you can do so by different means.</p>
-        <a href="/contact" class="btnGeneral">Contact me</a>
     </div>
 </main>
