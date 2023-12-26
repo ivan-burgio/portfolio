@@ -541,6 +541,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 0.5rem;
 }
 .aboutme__tech-element {
   display: flex;
@@ -553,6 +554,7 @@ p {
   margin: 2rem;
   padding: 1rem;
   background-color: #8a370a;
+  border-radius: 0.5rem;
 }
 .aboutme__tech-element::before {
   content: "";
@@ -601,6 +603,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 0.5rem;
 }
 .aboutme__career-titule {
   text-align: center;
@@ -624,6 +627,8 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #8a370a;
+  border-radius: 0.5rem;
 }
 @media (min-width: 768px) {
   .aboutme__career-elem {
@@ -666,7 +671,6 @@ p {
   list-style: none;
   justify-content: center;
   padding: 0;
-  background-color: #8a370a;
 }
 
 .proyects {
@@ -682,6 +686,7 @@ p {
   margin: 2rem;
   background-color: #e48c27;
   width: 90%;
+  border-radius: 0.5rem;
 }
 @media (min-width: 992px) {
   .proyects-proyect {

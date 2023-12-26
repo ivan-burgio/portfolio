@@ -14,6 +14,7 @@
         margin: 2rem;
         background-color: v.$anaranjado;
         width: 90%;
+        border-radius: 0.5rem;
         
         @include m.desktop {
             flex-direction: row;
