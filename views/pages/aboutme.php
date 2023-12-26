@@ -36,8 +36,8 @@
                         </div>
 
                         <p class="aboutme__career-elem--info2">
-                            At ACSA we have more than 60 years of experience in the Uruguayan real estate market. With absolute vocation, we offer comprehensive management for our services.
-                            The company is made up of more than 70 employees in constant training dedicated to offering optimal service. From each specialized department, we seek to cover every detail necessary in the process to meet the client's and company's objectives.
+                            "At ACSA we have more than 60 years of experience in the Uruguayan real estate market. With absolute vocation, we offer comprehensive management for our services.
+                            The company is made up of more than 70 employees in constant training dedicated to offering optimal service. From each specialized department, we seek to cover every detail necessary in the process to meet the objectives of the client and the company." - <i>The Company, ACSA</i>
                         </p>
                     </li>
                 </ul>
@@ -45,8 +45,37 @@
 
             <div data-aos="fade-up" class="aboutme__career-section">
                 <p class="aboutme__career-titules">Studies</p>
+
                 <ul class="aboutme__career-list">
-                    
+                    <li class="aboutme__career-elem">
+                        <div class="aboutme__career-elem--info">
+                            <p class="aboutme__career-title">Web Developer</p>
+                            <i class="aboutme__career-company">Complete Web Development</i>
+                            <i class="aboutme__career-company">Udemy Course</i>
+                            <p class="aboutme__career-duration">Oct. 2022 - sept. 2023</p>
+                            <a class="btnGeneral" href="https://udemy-certificate.s3.amazonaws.com/image/UC-945084bb-0e21-48ad-b3d8-0f7e0ef4da4b.jpg" target="_blank">Certificate</a>
+                        </div>
+
+                        <p class="aboutme__career-elem--info2">
+                            This course introduces you in detail to Web Programming, addressing 10 key Languages and Technologies. Includes the creation of 8 practical projects. Additionally, it covers essential topics such as account creation, Framework development, authentication from real databases, access recovery, receiving online payments, and database modeling. Provides a solid theoretical and practical foundation in Web Programming. Professor: Juan Pablo de la Torre.
+                        </p>
+                    </li>
+
+                    <li class="aboutme__career-elem">
+                        <div class="aboutme__career-elem--info">
+                            <p class="aboutme__career-title">Web Developer</p>
+                            <i class="aboutme__career-company">Ceibal - Jovenes a Programar</i>
+                            <i class="aboutme__career-company">Level 1</i>
+                            <p class="aboutme__career-duration">March 2023 - Nov. 2023</p>
+                            <a class="btnGeneral" href="/build/img/certificado_jap.pdf" target="_blank">Certificate</a>
+                        </div>
+
+                        <p class="aboutme__career-elem--info2">
+                            "Young People to Program (JaP) is a Ceibal program that emerged in 2016 to train and help place young people between 18 and 30 years old from all over the country in the area of information technologies. Through this program In a year you will experience changes at an academic, work and even personal level.
+
+                            JaP offers programming, testing and other technologies courses with the support of CUTI, BID-Lab and the main companies in the sector." - <i>What is JaP?, JaP</i>
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>

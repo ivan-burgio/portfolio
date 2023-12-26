@@ -629,6 +629,7 @@ p {
   justify-content: center;
   background-color: #8a370a;
   border-radius: 0.5rem;
+  margin: 2rem auto;
 }
 @media (min-width: 768px) {
   .aboutme__career-elem {
@@ -649,9 +650,6 @@ p {
 }
 .aboutme__career-elem--info2 {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 2rem;
 }
 @media (min-width: 768px) {
@@ -667,6 +665,7 @@ p {
 }
 .aboutme__career-list {
   display: flex;
+  flex-direction: column;
   width: 100%;
   list-style: none;
   justify-content: center;

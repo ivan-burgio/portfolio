@@ -147,6 +147,7 @@
             justify-content: center;
             background-color: v.$marron;
             border-radius: 0.5rem;
+            margin: 2rem auto;
 
             @include m.tablet {
                 flex-direction: row;
@@ -166,9 +167,6 @@
 
             &--info2 {
                 width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 padding: 2rem;
 
                 @include m.tablet {
@@ -189,6 +187,7 @@
 
         &-list {
             display: flex;
+            flex-direction: column;
             width: 100%;
             list-style: none;
             justify-content: center;
