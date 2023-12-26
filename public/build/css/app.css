@@ -613,6 +613,41 @@ p {
   font-weight: 600;
   margin: 1rem 0;
 }
+.aboutme__career-elem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem {
+    flex-direction: row;
+  }
+}
+.aboutme__career-elem--info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem--info {
+    width: 40%;
+  }
+}
+.aboutme__career-elem--info2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem--info2 {
+    width: 60%;
+  }
+}
 .aboutme__career-company {
   font-size: 3rem;
 }

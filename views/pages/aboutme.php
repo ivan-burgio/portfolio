@@ -19,29 +19,38 @@
         </picture>
     </div>
 
-    <div>
+    <div class="container-center">
         <h3 data-aos="fade-up" class="aboutme__career-titule">Career</h3>
 
-        <div data-aos="fade-up" class="aboutme__career-section">
-            <p class="aboutme__career-titules">Experience</p>
-            <ul class="aboutme__career-list">
-                <li>
-                    <p class="aboutme__career-title">Programmer</p>
-                    <a class="aboutme__career-company" href="https://www.acsa.com.uy" target="_blank">ACSA - Real Estate</a>
-                    <p class="aboutme__career-duration">Nov. 2023 - present (<?php echo calculateExperienceDuration("2023-11-07"); ?>)</p>
-                </li>
-            </ul>
-        </div>
+        <div class="aboutme__career">
+            <div data-aos="fade-up" class="aboutme__career-section">
+                <p class="aboutme__career-titules">Experience</p>
+                <ul class="aboutme__career-list">
+                    <li class="aboutme__career-elem">
+                        <div class="aboutme__career-elem--info">
+                            <p class="aboutme__career-title">Programmer</p>
+                            <i><a class="aboutme__career-company" href="https://www.acsa.com.uy" target="_blank">ACSA - Real Estate</a></i>
+                            <p class="aboutme__career-duration">Nov. 2023 - present (<?php echo calculateExpDuration("2023-11-07"); ?>)</p>
+                        </div>
 
-        <div data-aos="fade-up" class="aboutme__career-section">
-            <p class="aboutme__career-titules">Studies</p>
-            <ul class="aboutme__career-list">
+                        <p class="aboutme__career-elem--info2">
+                            At ACSA we have more than 60 years of experience in the Uruguayan real estate market. With absolute vocation, we offer comprehensive management for our services.
+                            The company is made up of more than 70 employees in constant training dedicated to offering optimal service. From each specialized department, we seek to cover every detail necessary in the process to meet the client's and company's objectives.
+                        </p>
+                    </li>
+                </ul>
+            </div>
 
-            </ul>
+            <div data-aos="fade-up" class="aboutme__career-section">
+                <p class="aboutme__career-titules">Studies</p>
+                <ul class="aboutme__career-list">
+
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div>
+    <div class="container-center">
         <h3 data-aos="fade-up" class="aboutme__tech-titule">Tech Stack</h3>
 
         <div class="aboutme__tech">

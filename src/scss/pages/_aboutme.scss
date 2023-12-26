@@ -2,6 +2,7 @@
 @use 'base/mixins' as m;
 
 .aboutme {
+
     &__i {
         justify-content: space-between;
         align-items: center;
@@ -134,6 +135,41 @@
             color: v.$white;
             font-weight: 600;
             margin: 1rem 0;
+        }
+
+        &-elem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            @include m.tablet {
+                flex-direction: row;
+            }
+
+            &--info {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                @include m.tablet {
+                    width: 40%;
+                }
+            }
+
+            &--info2 {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem;
+
+                @include m.tablet {
+                    width: 60%;
+                }
+            }
         }
 
         &-company {

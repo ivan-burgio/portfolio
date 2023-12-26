@@ -96,7 +96,7 @@ function techs_template($img, $nombre) {
     ';
 }
 
-function calculateExperienceDuration($startDate) {
+function calculateExpDuration($startDate) {
     $startTimestamp = strtotime($startDate);
     $currentTimestamp = time();
 
