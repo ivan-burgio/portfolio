@@ -1,6 +1,6 @@
 ﻿# Portfolio of Iván Burgio - _v1.3.1_
 
-The idea of this update is to improve the optimization of the page, fix errors and details that were found. <br>
+The idea of this update is to add new content to the portfolio in addition to improving the user experience. <br>
 
 # Latest changes:
 
