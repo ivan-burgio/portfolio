@@ -1,4 +1,6 @@
 <main class="main proyects">
+    <p data-aos="fade-up" class="intro-txt-center">All of these projects are practice websites.</p>
+
     <?php
         proyects_template( // 4ª Proyecto React
             'https://crm-ivanburgio.netlify.app',
