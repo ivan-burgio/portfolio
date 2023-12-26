@@ -25,12 +25,14 @@
         <div class="aboutme__career">
             <div data-aos="fade-up" class="aboutme__career-section">
                 <p class="aboutme__career-titules">Experience</p>
+
                 <ul class="aboutme__career-list">
                     <li class="aboutme__career-elem">
                         <div class="aboutme__career-elem--info">
                             <p class="aboutme__career-title">Programmer</p>
-                            <i><a class="aboutme__career-company" href="https://www.acsa.com.uy" target="_blank">ACSA - Real Estate</a></i>
+                            <i class="aboutme__career-company">ACSA - Real Estate</i>
                             <p class="aboutme__career-duration">Nov. 2023 - present (<?php echo calculateExpDuration("2023-11-07"); ?>)</p>
+                            <a class="btnGeneral" href="https://www.acsa.com.uy" target="_blank">Website</a>
                         </div>
 
                         <p class="aboutme__career-elem--info2">
@@ -44,7 +46,7 @@
             <div data-aos="fade-up" class="aboutme__career-section">
                 <p class="aboutme__career-titules">Studies</p>
                 <ul class="aboutme__career-list">
-
+                    
                 </ul>
             </div>
         </div>

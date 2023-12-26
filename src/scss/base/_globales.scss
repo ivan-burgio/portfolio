@@ -38,8 +38,12 @@ img {
 
 .btnGeneral--disabled {
     @extend .btnGeneral;
+    background-color: v.$anaranjado-disabled;
+    color: v.$gray;
     
     &:hover {
         cursor: not-allowed;
+        background-color: v.$marron-disabled;
+        color: v.$white-disabled;
     }
 }

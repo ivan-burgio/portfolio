@@ -369,8 +369,14 @@ img {
   background-color: #8a370a;
 }
 
+.btnGeneral--disabled {
+  background-color: #e9ad69;
+  color: #313131;
+}
 .btnGeneral--disabled:hover {
   cursor: not-allowed;
+  background-color: rgb(132, 75, 44);
+  color: #cfcdcd;
 }
 
 h1, h2, h3 {
