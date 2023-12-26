@@ -18,6 +18,8 @@
         action='https://formsubmit.co/<?php echo $_ENV['EMAIL_MAIL']; ?>' 
         method="POST"
     >
+        <p data-aos="fade-up" class="intro-txt-center">Complete the fields to enable sending of the email.</p>
+
         <label class="contact__label" for="name">Name</label>
         <input class="contact__form-input" placeholder="Your name" type="text" id="name" name="name" required>
         
