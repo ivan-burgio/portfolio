@@ -335,7 +335,7 @@ img {
   height: auto;
 }
 
-.btnGeneral {
+.btnGeneral, .btnGeneral--disabled {
   background-color: #e48c27;
   padding: 1.2rem 3.5rem;
   color: #000;
@@ -349,24 +349,34 @@ img {
   display: block;
   width: 80%;
   border-radius: 0.5rem;
-  margin: 3rem;
+  margin: 1rem 3rem 3rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   font-size: 2.5rem;
 }
 @media (min-width: 768px) {
-  .btnGeneral {
+  .btnGeneral, .btnGeneral--disabled {
     width: auto;
   }
 }
-.btnGeneral:hover {
+.btnGeneral:hover, .btnGeneral--disabled:hover {
   background-color: #935712;
   color: #FFFFFF;
   cursor: pointer;
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
 }
-.btnGeneral:hover {
+.btnGeneral:hover, .btnGeneral--disabled:hover {
   text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6);
   background-color: #8a370a;
+}
+
+.btnGeneral--disabled {
+  background-color: #e9ad69;
+  color: #313131;
+}
+.btnGeneral--disabled:hover {
+  cursor: not-allowed;
+  background-color: rgb(132, 75, 44);
+  color: #cfcdcd;
 }
 
 h1, h2, h3 {
@@ -507,11 +517,11 @@ p {
   min-height: 40rem;
   max-width: 40rem;
   max-height: 40rem;
-  background-image: image-set(url(../img/yo.avif) 1x, url(../img/yo.webp) 1x, url(../img/yo.png) 1x);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 3rem;
+}
+.aboutme__i-foto img {
+  width: 100%;
+  height: 100%;
 }
 .aboutme__i-info {
   text-align: left;
@@ -531,6 +541,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 0.5rem;
 }
 .aboutme__tech-element {
   display: flex;
@@ -543,6 +554,7 @@ p {
   margin: 2rem;
   padding: 1rem;
   background-color: #8a370a;
+  border-radius: 0.5rem;
 }
 .aboutme__tech-element::before {
   content: "";
@@ -578,6 +590,87 @@ p {
   width: 7rem;
   height: 7rem;
 }
+.aboutme__career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutme__career-section {
+  width: 90%;
+  margin: 3rem;
+  padding: 2rem;
+  background-color: #e48c27;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.aboutme__career-titule {
+  text-align: center;
+  margin-top: 20rem;
+  font-size: 5rem;
+}
+.aboutme__career-titules {
+  font-size: 5rem;
+  margin: 0.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.aboutme__career-title, .aboutme__career-duration, .aboutme__career-company {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.aboutme__career-elem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8a370a;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem {
+    flex-direction: row;
+  }
+}
+.aboutme__career-elem--info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem--info {
+    width: 40%;
+  }
+}
+.aboutme__career-elem--info2 {
+  width: 100%;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .aboutme__career-elem--info2 {
+    width: 60%;
+  }
+}
+.aboutme__career-company {
+  font-size: 3rem;
+}
+.aboutme__career-duration {
+  font-size: 2rem;
+}
+.aboutme__career-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
 
 .proyects {
   display: flex;
@@ -592,6 +685,7 @@ p {
   margin: 2rem;
   background-color: #e48c27;
   width: 90%;
+  border-radius: 0.5rem;
 }
 @media (min-width: 992px) {
   .proyects-proyect {
@@ -617,6 +711,19 @@ p {
   .proyects-proyect-img {
     min-width: 50rem;
     min-height: 30rem;
+  }
+}
+.proyects-proyect__botones {
+  width: 90%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .proyects-proyect__botones {
+    flex-direction: row;
   }
 }
 

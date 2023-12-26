@@ -46,10 +46,10 @@ function agregarBrDespuesDePunto($texto) {
     return $textoConBr;
 }
 
-function proyects_template($link, $imgFormats, $txt) {
+function proyects_template($linkDeploy, $linkRepo, $imgFormats, $txt) {
     echo '
     <div data-aos="fade-up" class="proyects-proyect">
-        <a href="' . $link . '" class="proyects-proyect-img" target="_blank">';
+        <div class="proyects-proyect-img">';
 
     echo '<picture>';
 
@@ -59,13 +59,27 @@ function proyects_template($link, $imgFormats, $txt) {
     }
 
     echo '
-            <img src="' . $imgFormats['png'] . '" alt="' . htmlspecialchars($link) . '" loading="lazy">
+            <img src="' . $imgFormats['png'] . '" alt="' . htmlspecialchars($linkRepo) . '" loading="lazy">
         </picture>
-        </a>
+
+        </div>
         <p class="proyects-proyect-info">
             ' . agregarBrDespuesDePunto($txt) . '
         </p>
-    </div>';
+    </div>
+
+    <div data-aos="fade-up" class="proyects-proyect__botones">';
+    
+    if($linkDeploy) {
+        echo '<a href="' . $linkDeploy . '" class="btnGeneral" target="_blank">Deployment</a>';
+    } else {
+        echo '<a class="btnGeneral--disabled" target="_blank">Deployment</a>';
+    }
+
+    echo '
+        <a href="' . $linkRepo . '" class="btnGeneral" target="_blank">Repository</a>
+    </div>
+    ';
 }
 
 function techs_template($img, $nombre) {
@@ -80,4 +94,14 @@ function techs_template($img, $nombre) {
             ></img>
         </li>
     ';
+}
+
+function calculateExpDuration($startDate) {
+    $startTimestamp = strtotime($startDate);
+    $currentTimestamp = time();
+
+    $diff = $currentTimestamp - $startTimestamp;
+    $months = floor($diff / (30 * 24 * 60 * 60)); // Asumiendo un mes de 30 días
+
+    return $months . " months";
 }
