@@ -49,6 +49,19 @@
 
     <div class="main proyects">
         <?php
+            proyects_template( // 4ª Proyecto React
+                'https://crm-ivanburgio.netlify.app',
+                'https://github.com/ivan-burgio/proyecto-crm-vite',
+                [
+                    'avif' => '/build/img/proyecto_react4.avif',
+                    'jpg' => '/build/img/proyecto_react4.png',
+                    'webp' => '/build/img/proyecto_react4.webp',
+                ],
+                'This Project simulates a customer registration site, unlike the previous project, an API is not used to query the information, but rather a "database" with JSON is used, from which you can create, modify and delete the records in it.
+    
+                Another new feature of this project is that we use React Router DOM for the project structure, making it easier to create and maintain site routes.'
+            );
+
             proyects_template( // 3ª Proyecto React
                 'https://cotizadorcriptos-ivanburgio.netlify.app',
                 'https://github.com/ivan-burgio/proyecto-criptos-vite',
@@ -76,22 +89,6 @@
                 Like all projects, it has field validation.
                 You can also edit and delete some expenses and the budget value is updated in real time along with the graph.
                 Personally, I consider it very useful to the point that I am going to use it in my daily life.'
-            );
-
-            proyects_template( // 1ª Proyecto React
-                'https://administradorpacientes-ivanburgio.netlify.app',
-                'https://github.com/ivan-burgio/proyecto-administrador-pacientes-vite',
-                [
-                    'avif' => '/build/img/proyecto_react1.avif',
-                    'png' => '/build/img/proyecto_react1.png',
-                    'webp' => '/build/img/proyecto_react1.webp',
-                ],
-                'This project is a simulation of a patient manager in a veterinary clinic.
-                What makes this project special is that it has: <br>
-                ✅Field validation to ensure that the information entered is correct.
-                ✅Data persistence in localstorage to maintain a record of patients.
-                ✅Patient editing and deletion functionality, making it a truly useful tool for patient management in a clinic.
-                To build this project, I used Vite for the initial files, React for creating the interface, and TailwindCSS to give it a nice look. I also implemented Hooks like useEffect and useState, which are essential in developing React applications.'
             );
         ?>
     </div>

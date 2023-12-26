@@ -1,5 +1,18 @@
 <main class="main proyects">
     <?php
+        proyects_template( // 4ª Proyecto React
+            'https://crm-ivanburgio.netlify.app',
+            'https://github.com/ivan-burgio/proyecto-crm-vite',
+            [
+                'avif' => '/build/img/proyecto_react4.avif',
+                'jpg' => '/build/img/proyecto_react4.png',
+                'webp' => '/build/img/proyecto_react4.webp',
+            ],
+            'This Project simulates a customer registration site, unlike the previous project, an API is not used to query the information, but rather a "database" with JSON is used, from which you can create, modify and delete the records in it.
+
+            Another new feature of this project is that we use React Router DOM for the project structure, making it easier to create and maintain site routes.'
+        );
+
         proyects_template( // 3ª Proyecto React
             'https://cotizadorcriptos-ivanburgio.netlify.app',
             'https://github.com/ivan-burgio/proyecto-criptos-vite',
