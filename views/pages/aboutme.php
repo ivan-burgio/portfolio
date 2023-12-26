@@ -53,7 +53,7 @@
                             <i class="aboutme__career-company">Complete Web Development</i>
                             <i class="aboutme__career-company">Udemy Course</i>
                             <p class="aboutme__career-duration">Oct. 2022 - sept. 2023</p>
-                            <a class="btnGeneral" href="https://udemy-certificate.s3.amazonaws.com/image/UC-945084bb-0e21-48ad-b3d8-0f7e0ef4da4b.jpg" target="_blank">Certificate</a>
+                            <a class="btnGeneral" href="/build/img/certificado_udemy1.pdf" target="_blank">Certificate</a>
                         </div>
 
                         <p class="aboutme__career-elem--info2">
