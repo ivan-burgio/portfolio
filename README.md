@@ -1,4 +1,4 @@
-﻿# Portfolio of Iván Burgio - _v1.3.1_
+﻿# Portfolio of Iván Burgio - _v1.3.2_
 
 The idea of this update is to add new content to the portfolio in addition to improving the user experience. <br>
 
@@ -51,5 +51,9 @@ commit: 03eda1b4aeeff9ae5233f9639c6aa3f53b407dcb <br>
 **Adding the udemy certificate locally** <br>
 _v1.3.1_ <br>
 commit: cf2d0904fe5bd6f2f14b161d426a9f4e2fbd2d00 <br>
+
+**Image arrangement and text centering for mobile in About me** <br>
+_v1.3.2_ <br>
+commit: 9d47176210f0a061c600779e85db0ba7419f3394 <br>
 
 end of this update...
