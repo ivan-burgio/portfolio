@@ -15,7 +15,7 @@
         <picture class="aboutme__i-foto">
             <source type="image/avif" srcset="/build/img/yo.avif">
             <source type="image/webp" srcset="/build/img/yo.webp">
-            <img loading="lazy" alt="image of me" src="/build/img/yo.png" loading="lazy">
+            <img class="aboutme__i-foto--img" alt="image of me" src="/build/img/yo.png" loading="lazy">
         </picture>
     </div>
 
